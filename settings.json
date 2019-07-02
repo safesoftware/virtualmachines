@@ -21,22 +21,22 @@
 "fmeserver.ec2size"     : "medium",
 "fmeserver.volumeSize"  : 40,
 "fmeserver.securityGroup"  : "fmeserver",
-"fmeserver.docker-compose.yaml" : "https://s3-us-west-2.amazonaws.com/safe-software-container-deployments/2019.1.0-beta/latest/docker-compose.yaml",
+"fmeserver.docker-compose.yaml" : "https://s3-us-west-2.amazonaws.com/safe-software-container-deployments/2019.0.2/docker-compose.yaml",
 
 "fme.ec2type"       : "t3",
 "fme.ec2size"       : "large",
 "fme.volumeSize"    : 80,
 "fme.securityGroup" : "fme",
-"fme.timezone"      : "Pacific Standard Time",
+"fme.timezone"      : "Central Standard Time",
 "fme.portForwarding" : "81;82;443;8080;8081",
 "fme.firewall"       : "80;25;5900;5800;7078",
 "fme.password"      : "FMElearnings#1",
-"fme.license"   :   "10.0.51.209",
+"fme.license"   :   "10.0.26.56",
 "fme.installApps"   : "notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat git python eclipse postman openoffice opera sql-server-express sql-server-management-studio",
 "fme.vm.instanceInitiatedShutdownBehavior" : "terminate",
 "fme.vm.Subject"    :"Your FME Training Virtual Machine connection files",
-"fme.vm.fromEmail"  : "train@safe.com",
-"fme.vm.CCEmail"    : "ryan.cragg@safe.com",
+"fme.vm.fromEmail"  : "frank.zander@solidcad.ca",
+"fme.vm.CCEmail"    : "frank.zander@solidcad.ca",
 "fme.vm.BCCEmail"   : "emailtosalesforce@3bxfu520n23ghfjugzh0uta0y.in.salesforce.com",
 
 
@@ -71,11 +71,11 @@
 "THE FME TRAINING MATERIALS ARE PROVIDED “AS IS” AND WITH ALL DEFECTS AND ERRORS.  SAFE MAKES NO WARRANTIES, EXPRESS OR IMPLIED, AS TO NONINFRINGEMENT OF THIRD PARTY RIGHTS, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  WITHOUT LIMITING THE GENERALITY OF THE FOREGOING, SAFE ASSUMES NO LIABILITY FOR ANY SYSTEM ON WHICH THE FME TRAINING MATERIALS ARE INSTALLED OR FOR ANY DATA TRANSLATED BY FME.",
 "",
 "Regards,",
-"Ryan Cragg",
+"Frank Zander",
 "--",
-"Training at Safe Software",
-"Safe Software Inc.",
-"train@safe.com | www.safe.com"
+"Training at SolidCAD",
+"SolidCAD Inc.",
+"frank.zander@solidcad.ca | www.solidcad.ca"
 ],
 
 "fme.vm.template.rdp":[
