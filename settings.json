@@ -1,11 +1,11 @@
 {
 
-"git.username"        : "safesoftware",
+"git.username"        : "FrankZander",
 "git.repository"      : "virtualmachines",
-"git.branch"          : "2019.1",
+"git.branch"          : "C3D",
 
-"aws.name_tag"        : "FME Virtual Machines",
-"aws.region_name"     : "us-west-1",
+"aws.name_tag"        : "SolidCAD Virtual Machines",
+"aws.region_name"     : "ca-central-1",
 "aws.vpc_cidr"        : "10.0.0.0/16",
 "aws.subnet_cidr"     : ["10.0.0.0/19","10.0.32.0/19","10.0.64.0/19","10.0.96.0/19"],
 
