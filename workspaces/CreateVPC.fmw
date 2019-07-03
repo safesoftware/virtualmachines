@@ -16,8 +16,13 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="19260"
+<<<<<<< Updated upstream
 #!   FME_DOCUMENT_GUID="a12bf752-4009-4605-8708-a394d7733dd6"
 #!   FME_DOCUMENT_PRIORGUID="4697031d-dedd-4723-a2d3-50406b714609,60458a80-2aad-4eeb-9257-5192adfb8cb6,e54b6f8d-03ca-48a4-8f58-0ad54e69ba4e,66aa0403-d44a-405a-9a7e-2fd1b8757abb,9d6df054-03d1-4aaf-a191-37dcbdaec95c,59fb33ef-89c5-4096-8848-0376e39f037c,20f49af7-35ec-4527-9b0d-9b7757406154,2593cbda-f287-421c-b571-73dda84221bd,a19fe32c-be74-4d30-b79e-7ef94ec46c90,ca40442b-495f-4b81-a042-8bd26c40ec1e"
+=======
+#!   FME_DOCUMENT_GUID="7ab781fb-69ba-421e-b74b-cbf6deab3c60"
+#!   FME_DOCUMENT_PRIORGUID="4697031d-dedd-4723-a2d3-50406b714609,60458a80-2aad-4eeb-9257-5192adfb8cb6,e54b6f8d-03ca-48a4-8f58-0ad54e69ba4e,66aa0403-d44a-405a-9a7e-2fd1b8757abb,9d6df054-03d1-4aaf-a191-37dcbdaec95c,59fb33ef-89c5-4096-8848-0376e39f037c,20f49af7-35ec-4527-9b0d-9b7757406154,2593cbda-f287-421c-b571-73dda84221bd"
+>>>>>>> Stashed changes
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -26,7 +31,11 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2019.0.2.0 (20190605 - Build 19260 - WIN64)"
+<<<<<<< Updated upstream
 #!   LAST_SAVE_DATE="2019-07-03T10:08:11"
+=======
+#!   LAST_SAVE_DATE="2019-07-02T15:29:54"
+>>>>>>> Stashed changes
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -45,7 +54,11 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
+<<<<<<< Updated upstream
 #!   VIEW_POSITION="11100.1 -1012.51"
+=======
+#!   VIEW_POSITION="-2875.03 -90.0009"
+>>>>>>> Stashed changes
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -88,10 +101,17 @@
 #! <COMMENT
 #!   IDENTIFIER="55"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Create VPC&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+<<<<<<< Updated upstream
 #!   POSITION="876.51310645611511 -783.50882232546689"
 #!   TOP_LEFT="876.51310645611511 -783.50882232546689"
 #!   BOTTOM_RIGHT="1781.0175501755029 -782.50882232546689"
 #!   BOUNDING_RECT="876.51310645611511 -783.50882232546689 904.50444371938772 -1"
+=======
+#!   POSITION="876.51310645611488 -793.50892232646709"
+#!   TOP_LEFT="876.51310645611488 -793.50892232646709"
+#!   BOTTOM_RIGHT="1781.0175501755025 -792.50892232646709"
+#!   BOUNDING_RECT="876.51310645611488 -793.50892232646709 904.50444371938772 -1"
+>>>>>>> Stashed changes
 #!   ORDER="500000000000217"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -298,10 +318,17 @@
 #! <COMMENT
 #!   IDENTIFIER="149"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Get parameters from settings.json&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+<<<<<<< Updated upstream
 #!   POSITION="-717.00118705243494 -329.00446228186672"
 #!   TOP_LEFT="-717.00118705243494 -329.00446228186672"
 #!   BOTTOM_RIGHT="-245.00118705243494 -328.00446228186672"
 #!   BOUNDING_RECT="-717.00118705243494 -329.00446228186672 472 -1"
+=======
+#!   POSITION="-692.00093704993503 -300.50509228816668"
+#!   TOP_LEFT="-692.00093704993503 -300.50509228816668"
+#!   BOTTOM_RIGHT="-220.00093704993503 -299.50509228816668"
+#!   BOUNDING_RECT="-692.00093704993503 -300.50509228816668 472 -1"
+>>>>>>> Stashed changes
 #!   ORDER="500000000000258"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -313,10 +340,10 @@
 #! <COMMENT
 #!   IDENTIFIER="150"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;clean out what we don&apos;t need&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-46.779487594060242 -571.50836232086704"
-#!   TOP_LEFT="-46.779487594060242 -571.50836232086704"
-#!   BOTTOM_RIGHT="498.00522005220057 -570.50836232086704"
-#!   BOUNDING_RECT="-46.779487594060242 -571.50836232086704 544.78470764626081 -1"
+#!   POSITION="-46.779487594060242 -522.50787231596701"
+#!   TOP_LEFT="-46.779487594060242 -522.50787231596701"
+#!   BOTTOM_RIGHT="498.00522005220057 -521.50787231596701"
+#!   BOUNDING_RECT="-46.779487594060242 -522.50787231596701 544.78470764626081 -1"
 #!   ORDER="500000000000259"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -355,7 +382,11 @@
 #!   BOUNDING_RECT="3921.1901630218181 -861.50779231516697 4299.606297295727 975.00975009750096"
 #!   STICKY="true"
 #!   COLOUR="0.49411764705882355,0.40392156862745099,0.34509803921568627,0.39215686274509803"
+<<<<<<< Updated upstream
 #!   CONTENTS="19 30 61 60 21 62 17 20 29 22 "
+=======
+#!   CONTENTS="22 62 19 30 21 17 60 20 29 61 "
+>>>>>>> Stashed changes
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -369,7 +400,11 @@
 #!   BOUNDING_RECT="648.0064800648006 -584.00746231186702 2993.0142143954708 957.00957009570106"
 #!   STICKY="true"
 #!   COLOUR="0.44313725490196076,0.3843137254901961,0.69019607843137254,0.39215686274509803"
+<<<<<<< Updated upstream
 #!   CONTENTS="55 18 27 25 24 26 "
+=======
+#!   CONTENTS="18 27 25 55 24 26 "
+>>>>>>> Stashed changes
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -383,7 +418,11 @@
 #!   BOUNDING_RECT="3883.5436767618176 873.00873008730059 4018.5353440283898 537.00537005370052"
 #!   STICKY="true"
 #!   COLOUR="0.72549019607843135,0.14117647058823529,0.047058823529411764,0.39215686274509803"
+<<<<<<< Updated upstream
 #!   CONTENTS="96 100 92 98 99 "
+=======
+#!   CONTENTS="100 99 92 98 96 "
+>>>>>>> Stashed changes
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -397,7 +436,11 @@
 #!   BOUNDING_RECT="3883.5436767618176 1848.0184801848018 4012.5352840277901 915.00915009150106"
 #!   STICKY="true"
 #!   COLOUR="0.72549019607843135,0.14117647058823529,0.047058823529411764,0.39215686274509803"
+<<<<<<< Updated upstream
 #!   CONTENTS="93 88 94 79 90 "
+=======
+#!   CONTENTS="93 79 90 88 94 "
+>>>>>>> Stashed changes
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -411,7 +454,11 @@
 #!   BOUNDING_RECT="3533.4720334875801 -2181.7885737680904 11346.676768000434 1319.2464365820128"
 #!   STICKY="true"
 #!   COLOUR="0.078431372549019607,0.17254901960784313,0.0039215686274509803,0.39215686274509803"
+<<<<<<< Updated upstream
 #!   CONTENTS="86 69 32 126 70 147 122 73 51 54 52 85 43 76 128 39 53 143 63 144 77 74 50 127 45 41 71 145 72 142 68 56 44 47 36 48 40 46 42 75 146 "
+=======
+#!   CONTENTS="36 42 71 86 147 122 32 63 126 75 74 53 128 41 69 48 73 145 146 45 77 52 54 50 51 85 56 40 76 43 142 72 44 68 70 47 127 39 144 143 46 "
+>>>>>>> Stashed changes
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -425,7 +472,11 @@
 #!   BOUNDING_RECT="8814.802400376946 -867.77543363668906 4164.0416404164025 960.0096000960009"
 #!   STICKY="true"
 #!   COLOUR="0.50980392156862742,0.50196078431372548,0.38823529411764707,0.39215686274509803"
+<<<<<<< Updated upstream
 #!   CONTENTS="111 118 116 114 112 110 119 115 "
+=======
+#!   CONTENTS="119 110 111 114 118 115 112 116 "
+>>>>>>> Stashed changes
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -439,7 +490,11 @@
 #!   BOUNDING_RECT="3889.9792148844435 253.50308692173797 4003.0997159048638 976.5103169940387"
 #!   STICKY="true"
 #!   COLOUR="0.72549019607843135,0.14117647058823529,0.047058823529411764,0.39215686274509803"
+<<<<<<< Updated upstream
 #!   CONTENTS="130 129 132 134 133 "
+=======
+#!   CONTENTS="133 129 134 132 130 "
+>>>>>>> Stashed changes
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -453,7 +508,11 @@
 #!   BOUNDING_RECT="15890.162839556675 -1352.5131768434994 4089.7467798207399 1861.7833237155896"
 #!   STICKY="true"
 #!   COLOUR="0.78431372549019607,0,0.015686274509803921,0.39215686274509803"
+<<<<<<< Updated upstream
 #!   CONTENTS="131 113 138 176 123 "
+=======
+#!   CONTENTS="138 131 176 123 113 "
+>>>>>>> Stashed changes
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -467,7 +526,11 @@
 #!   BOUNDING_RECT="-2274.5197990035317 -300.50509228816668 2846.5250190557322 878.00237002370045"
 #!   STICKY="true"
 #!   COLOUR="0.50588235294117645,0.25490196078431371,0.17254901960784313,0.39215686274509803"
+<<<<<<< Updated upstream
 #!   CONTENTS="154 153 151 149 3 124 125 150 120 "
+=======
+#!   CONTENTS="124 125 150 149 151 153 120 3 154 "
+>>>>>>> Stashed changes
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -642,11 +705,16 @@
 #!   IDENTIFIER="18"
 #!   TYPE="PythonCaller"
 #!   VERSION="4"
+<<<<<<< Updated upstream
 #!   POSITION="900.51310645611511 -920.50954233266702"
 #!   BOUNDING_RECT="900.51310645611511 -920.50954233266702 904.50444371938772 71"
+=======
+#!   POSITION="900.51310645611488 -930.50964233366722"
+#!   BOUNDING_RECT="900.51310645611488 -930.50964233366722 904.50444371938772 71"
+>>>>>>> Stashed changes
 #!   ORDER="500000000000004"
 #!   PARMS_EDITED="true"
-#!   ENABLED="true"
+#!   ENABLED="false"
 #!   LAST_PARM_EDIT="19260"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
@@ -679,8 +747,8 @@
 #!   IDENTIFIER="24"
 #!   TYPE="JSONFlattener"
 #!   VERSION="5"
-#!   POSITION="2040.0186601866021 -745.50779231516697"
-#!   BOUNDING_RECT="2040.0186601866021 -745.50779231516697 561.00735007350022 71"
+#!   POSITION="2177.5200352003521 -835.5086923241671"
+#!   BOUNDING_RECT="2177.5200352003521 -835.5086923241671 561.00735007350022 71"
 #!   ORDER="500000000000203"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2373,8 +2441,8 @@
 #!   IDENTIFIER="124"
 #!   TYPE="AttributeRemover"
 #!   VERSION="1"
-#!   POSITION="-22.779487594060242 -756.50956233286706"
-#!   BOUNDING_RECT="-22.779487594060242 -756.50956233286706 544.78470764626081 71"
+#!   POSITION="-22.779487594060242 -772.50972233446703"
+#!   BOUNDING_RECT="-22.779487594060242 -772.50972233446703 544.78470764626081 71"
 #!   ORDER="500000000000257"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2414,7 +2482,6 @@
 #! >
 #!     <OUTPUT_FEAT NAME="PASSED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="SubnetTag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2424,27 +2491,33 @@
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SubnetTag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AvailabilityZones" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ZoneName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Subnet.AvailabilityZone" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Subnet.SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+<<<<<<< Updated upstream
 #!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+=======
+>>>>>>> Stashed changes
 #!     <OUTPUT_FEAT NAME="FAILED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="SubnetTag" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2454,24 +2527,31 @@
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="SubnetTag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AvailabilityZones" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ZoneName" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Subnet.AvailabilityZone" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Subnet.SubnetId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+<<<<<<< Updated upstream
 #!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+=======
+>>>>>>> Stashed changes
 #!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
 #!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST _exception ATTRIBUTE_HAS_A_VALUE &quot;&quot;"/>
@@ -2509,7 +2589,6 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="SubnetTag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2519,24 +2598,31 @@
 #!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SubnetTag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AvailabilityZones" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ZoneName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Subnet.AvailabilityZone" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Subnet.SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+<<<<<<< Updated upstream
 #!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+=======
+>>>>>>> Stashed changes
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="_exception"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeExposer"/>
@@ -3396,9 +3482,7 @@ FACTORY_DEF * TeeFactory FACTORY_NAME FeatureReader_<Rejected> INPUT FEATURE_TYP
 INCLUDE [    set macroLine "MACRO AttributeRemover_LIST_EXP ";    foreach attr [split "fme.vm.template.email<opencurly><closecurly> fme.vm.template.rdp<opencurly><closecurly>"] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeRemover    INPUT  FEATURE_TYPE FeatureReader_JSONFeature    OUTPUT { FEATURE_TYPE AttributeRemover_OUTPUT        @RemoveAttributes(fme_encoded,fmeserver.vm.server,ami.windows,fme.volumeSize,fmeserver.ec2type,fme.portForarding,fmeserver.vm.token,fme.vm.template.rdp<opencurly>0<closecurly>,fmeserver.volumeSize,flexnet.volumeSize,web.token,fme.vm.BCCEmail,web.workspace,fmeserver.ec2size,fmeserver.docker-compose.yaml,fmeserver.vm.repository,fme.password,fme.vm.fromEmail,fme.ec2type,fme.vm.CCEmail,fme.timezone,web.repository,fme.installApps,flexnet.ec2type,fme_geometry<opencurly>0<closecurly>,fme.ec2size,fme.vm.instanceInitiatedShutdownBehavior,fmeserver.vm.workspace,fme.vm.template.email<opencurly>0<closecurly>,flexnet.ec2size,web.server,ami.linux)        @RemoveAttributes(fme_pcre_match"$(AttributeRemover_LIST_EXP)")         }
 # -------------------------------------------------------------------------
-FME_PYTHON_PATH "$(FME_MF_DIR)"
-FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_create_VPC    INPUT  FEATURE_TYPE AttributeRemover_OUTPUT    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>ec2<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>ec2.create_vpc<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>CidrBlock=feature.getAttribute<openparen><apos>aws.vpc_cidr<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>PythonCaller_create_VPC:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_create_VPC_OUTPUT
-FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_create_VPC OUTPUT Splitter"   INPUT FEATURE_TYPE PythonCaller_create_VPC_OUTPUT   OUTPUT FEATURE_TYPE PythonCaller_create_VPC_OUTPUT_0_69iBcquRLVQ=   OUTPUT FEATURE_TYPE PythonCaller_create_VPC_OUTPUT_1_EprFU1kg14U=
+FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_create_VPC (Disabled) Nuker"   INPUT FEATURE_TYPE AttributeRemover_OUTPUT
 # -------------------------------------------------------------------------
 FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_vpc    INPUT  FEATURE_TYPE PythonCaller_create_VPC_OUTPUT_0_69iBcquRLVQ=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_vpc)"    READ_FROM_FILE NO    FILEPATH_OR_URL <Unused>    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_vpc_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_vpc_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
@@ -3454,7 +3538,11 @@ FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_create_subnets    INPUT
 # -------------------------------------------------------------------------
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester_Create_Subnets_success    INPUT  FEATURE_TYPE PythonCaller_create_subnets_OUTPUT    TEST _exception NOT_ATTRIBUTE_HAS_A_VALUE "" ENCODED    BOOLEAN_OPERATOR OR    COMPOSITE_TEST_EXPR "1"    OUTPUT PASSED FEATURE_TYPE Tester_Create_Subnets_success_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_Create_Subnets_success_FAILED
 # -------------------------------------------------------------------------
+<<<<<<< Updated upstream
 FACTORY_DEF * TeeFactory    FACTORY_NAME Tester_Create_Subnets_success_Failed_Logger    INPUT  FEATURE_TYPE Tester_Create_Subnets_success_FAILED    OUTPUT FEATURE_TYPE Tester_Create_Subnets_success_Failed_LOGGED                  @Log(ENCODED, "Tester_Create_Subnets_success_Failed:<space>Feature is:","20","20","",INFO,LOG_ONLY,Tester_Create_Subnets_success_Failed_62fa0896_31a0_4c97_b0c9_10f2007b9fd21)
+=======
+FACTORY_DEF * TeeFactory    FACTORY_NAME Tester_Create_Subnets_success_Failed_Logger    INPUT  FEATURE_TYPE Tester_Create_Subnets_success_FAILED    OUTPUT FEATURE_TYPE Tester_Create_Subnets_success_Failed_LOGGED                  @Log(ENCODED, "Tester_Create_Subnets_success_Failed:<space>Feature is:","20","20","",INFO,LOG_ONLY,Tester_Create_Subnets_success_Failed_f2359382_9d83_4b5f_98b2_0da4e119b95a5)
+>>>>>>> Stashed changes
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester_Create_Subnets_success_Failed LOGGED Transformer Output Nuker"   INPUT FEATURE_TYPE Tester_Create_Subnets_success_Failed_LOGGED
 # -------------------------------------------------------------------------
 FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_subnets    INPUT  FEATURE_TYPE Tester_Create_Subnets_success_PASSED    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_subnets)"    READ_FROM_FILE NO    FILEPATH_OR_URL <Unused>    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_subnets_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_subnets_<REJECTED>
