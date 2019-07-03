@@ -24,7 +24,7 @@
 
 "fme.ec2type"       : "g3s",
 "fme.ec2size"       : "xlarge",
-"fme.volumeSize"    : 240,
+"fme.volumeSize"    : 120,
 "fme.securityGroup" : "fme",
 "fme.timezone"      : "Central Standard Time",
 "fme.portForwarding" : "81;82;443;8080;8081",
