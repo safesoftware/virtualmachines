@@ -7,12 +7,7 @@
 "aws.name_tag"        : "SolidCAD Virtual Machines",
 "aws.region_name"     : "ca-central-1",
 "aws.vpc_cidr"        : "172.31.0.0/16",
-<<<<<<< Updated upstream
 "aws.subnet_cidr"     : ["172.31.16.0/20","172.31.16.0/20"],
-=======
-"aws.subnet_cidr"     : ["172.31.16.0/20,172.31.0.0/20"],
->>>>>>> Stashed changes
-
 "ami.linux"           : "Amazon Linux 2 AMI*",
 "ami.windows"         : "Microsoft Windows Server 2019 with Desktop Experience Locale English AMI provided by Amazon",
 
