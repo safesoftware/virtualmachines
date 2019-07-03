@@ -22,9 +22,9 @@
 "fmeserver.securityGroup"  : "fmeserver",
 "fmeserver.docker-compose.yaml" : "https://s3-us-west-2.amazonaws.com/safe-software-container-deployments/2019.0.2/docker-compose.yaml",
 
-"fme.ec2type"       : "t3",
-"fme.ec2size"       : "large",
-"fme.volumeSize"    : 80,
+"fme.ec2type"       : "g3s",
+"fme.ec2size"       : "xlarge",
+"fme.volumeSize"    : 240,
 "fme.securityGroup" : "fme",
 "fme.timezone"      : "Central Standard Time",
 "fme.portForwarding" : "81;82;443;8080;8081",
@@ -33,10 +33,10 @@
 "fme.license"   :   "172.31.21.71",
 "fme.installApps"   : "notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat git python eclipse postman openoffice opera sql-server-express sql-server-management-studio",
 "fme.vm.instanceInitiatedShutdownBehavior" : "terminate",
-"fme.vm.Subject"    :"Your FME Training Virtual Machine connection files",
+"fme.vm.Subject"    :"Your SolidCAD C3D Training Virtual Machine connection files",
 "fme.vm.fromEmail"  : "frank.zander@solidcad.ca",
 "fme.vm.CCEmail"    : "frank.zander@solidcad.ca",
-"fme.vm.BCCEmail"   : "emailtosalesforce@3bxfu520n23ghfjugzh0uta0y.in.salesforce.com",
+"fme.vm.BCCEmail"   : "frank.zander@solidcad.ca",
 
 
 "fme.vm.template.email":[
