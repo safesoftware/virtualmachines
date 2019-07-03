@@ -22,8 +22,8 @@
 "fmeserver.securityGroup"  : "fmeserver",
 "fmeserver.docker-compose.yaml" : "https://s3-us-west-2.amazonaws.com/safe-software-container-deployments/2019.0.2/docker-compose.yaml",
 
-"fme.ec2type"       : "g3s",
-"fme.ec2size"       : "xlarge",
+"fme.ec2type"       : "g3",
+"fme.ec2size"       : "4xlarge",
 "fme.volumeSize"    : 120,
 "fme.securityGroup" : "fme",
 "fme.timezone"      : "Central Standard Time",
