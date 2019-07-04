@@ -27,7 +27,7 @@
 "_comment_fme.volumeSize"    : 120,
 
 "fme.ec2type"       : "t3",
-"fme.ec2size"       : "large",
+"fme.ec2size"       : "2xlarge",
 "fme.volumeSize"    : 120,
 "fme.securityGroup" : "fme",
 "fme.timezone"      : "Central Standard Time",
