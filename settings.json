@@ -24,7 +24,7 @@
 
 "fme.ec2type"       : "p3",
 "fme.ec2size"       : "2xlarge",
-"fme.volumeSize"    : 120,
+"fme.volumeSize"    : 240,
 
 "_comment_fme.ec2type"       : "t3",
 "_comment_fme.ec2size"       : "2xlarge",
