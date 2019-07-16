@@ -5,7 +5,7 @@
 "git.branch"          : "C3D",
 
 "aws.name_tag"        : "SolidCAD Virtual Machines C3D",
-"aws.region_name"     : "ca-central-1",
+"aws.region_name"     : "ca-central-1b",
 "aws.vpc_cidr"        : "172.31.0.0/16",
 "aws.subnet_cidr"     : ["172.31.16.0/20","172.31.16.0/20"],
 "ami.linux"           : "Amazon Linux 2 AMI*",
