@@ -9,7 +9,7 @@
 "aws.vpc_cidr"        : "172.31.0.0/16",
 "aws.subnet_cidr"     : ["172.31.16.0/20","172.31.16.0/20"],
 "ami.linux"           : "Amazon Linux 2 AMI*",
-"ami.windows"         : "NVIDIA Quadro Virtual Workstation - WinServer 2016",
+"ami.windows"         : "Microsoft Windows Server 2019 with Desktop Experience Locale English AMI provided by Amazon",
 
 "flexnet.ec2type"       : "t3",
 "flexnet.ec2size"       : "nano",
