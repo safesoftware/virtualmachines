@@ -22,11 +22,11 @@
 "fmeserver.securityGroup"  : "fmeserver",
 "fmeserver.docker-compose.yaml" : "https://s3-us-west-2.amazonaws.com/safe-software-container-deployments/2019.0.2/docker-compose.yaml",
 
-"fme.ec2type"       : "p3",
+"fme.ec2type"       : "t3",
 "fme.ec2size"       : "2xlarge",
-"fme.volumeSize"    : 40,
+"fme.volumeSize"    : 240,
 
-"_comment_fme.ec2type"       : "t3",
+"_comment_fme.ec2type"       : "p3",
 "_comment_fme.ec2size"       : "2xlarge",
 "_comment_fme.volumeSize"    : 120,
 "fme.securityGroup" : "fme",
