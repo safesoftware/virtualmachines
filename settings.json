@@ -35,7 +35,7 @@
 "fme.firewall"       : "80;25;5900;5800;7078",
 "fme.password"      : "SolidCAD2019",
 "fme.license"   :   "172.31.17.54",
-"fme.installApps"   : "notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat git python eclipse postman openoffice opera sql-server-express sql-server-management-studio",
+"fme.installApps"   : "notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat git python eclipse postman openoffice sql-server-express sql-server-management-studio",
 "fme.vm.instanceInitiatedShutdownBehavior" : "terminate",
 "fme.vm.Subject"    :"Your SolidCAD C3D Training Virtual Machine connection files",
 "fme.vm.fromEmail"  : "frank.zander@solidcad.ca",
