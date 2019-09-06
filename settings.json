@@ -44,7 +44,7 @@
 "fme.vm.template.email":[
 "Hello _FullName_,",
 "",
-"Please wait 5-10 minutes after receiving this email before trying to connect to the virtual machine; they take approximately 10 minutes to boot.",
+"Please wait 5-10 minutes after receiving this email before trying to connect to the virtual machine; they take approximately 10 minutes to start up.",
 "The following RDP files can be used to connect to your FME Virtual Machine. The virtual machine will shut down automatically on Friday at 4:30pm Pacific Time.",
 "",
 "Please download and connect using __files{0}._url first. ",
@@ -71,7 +71,7 @@
 "Password: _fme.password_ ",
 "",
 "Virtual Machine Disclaimer:",
-"This copy of Safe Software’s proprietary FME software, extensions, and related materials ('FME Training Materials') is provided solely for training purposes. The content of the FME Training Materials is intended only to demonstrate features available in FME. User may not copy the FME Training Materials or sell, rent, lease, sub-license, lend, timeshare or transfer, in whole or in part, or provide unlicensed Third Parties access to the prior or present versions of the FME Training Materials. User shall not reverse engineer, decompile, disassemble, alter, modify, or create any derivative works of the FME Training Materials. User shall not remove or obscure any Safe copyright or trademark notices. On completion of training, User shall delete or return to Safe the FME Training Materials and any whole or partial copies, codes, modifications, and merged portions in any form. .",
+"This copy of Safe Software’s proprietary FME software, extensions, and related materials ('FME Training Materials') is provided solely for training purposes. The content of the FME Training Materials is intended only to demonstrate features available in FME. User may not copy the FME Training Materials or sell, rent, lease, sub-license, lend, timeshare or transfer, in whole or in part, or provide unlicensed Third Parties access to the prior or present versions of the FME Training Materials. User shall not reverse engineer, decompile, disassemble, alter, modify, or create any derivative works of the FME Training Materials. User shall not remove or obscure any Safe copyright or trademark notices. On completion of training, User shall delete or return to Safe the FME Training Materials and any whole or partial copies, codes, modifications, and merged portions in any form.",
 "THE FME TRAINING MATERIALS ARE PROVIDED “AS IS” AND WITH ALL DEFECTS AND ERRORS.  SAFE MAKES NO WARRANTIES, EXPRESS OR IMPLIED, AS TO NONINFRINGEMENT OF THIRD PARTY RIGHTS, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  WITHOUT LIMITING THE GENERALITY OF THE FOREGOING, SAFE ASSUMES NO LIABILITY FOR ANY SYSTEM ON WHICH THE FME TRAINING MATERIALS ARE INSTALLED OR FOR ANY DATA TRANSLATED BY FME.",
 "",
 "Regards,",
