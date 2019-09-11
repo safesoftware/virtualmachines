@@ -60,7 +60,7 @@
 "__files{2}._url",
 "These RDP files use different ports that might not be blocked.",
 "",
-"If you get an 'Access Denied' error message, then your virtual machine has expired, and you will have to request a new machine",
+"If you get an 'Access Denied' error message, then your virtual machine has expired, and you will have to request a new machine from https://knowledge.safe.com/articles/55282/",
 "",
 "If none of the RDP files will connect, then your Security Administrator is likely using a Web Security Gateway. This cannot be bypassed without contacting your IT Department. Please contact your IT Department, and tell them you need to use Remote Desktop to connect to _PublicIpAddress_ ",
 "",
