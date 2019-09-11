@@ -50,7 +50,7 @@
 "Please download and connect using __files{0}._url first. ",
 "Double-click on _PublicIpAddress_.rdp to open it in Microsoft Remote Desktop.",
 "",
-"The username is administrator",
+"The username is Administrator",
 "The password is _fme.password_",
 "",
 "Some organizations block the port used by RDP; port 3389.",
