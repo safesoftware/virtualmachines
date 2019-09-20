@@ -2,7 +2,7 @@
 
 "git.username"        : "safesoftware",
 "git.repository"      : "virtualmachines",
-"git.branch"          : "2019.1",
+"git.branch"          : "zonetest",
 
 "aws.name_tag"        : "FME Virtual Machines 2019",
 "aws.region_name"     : "us-west-2",
