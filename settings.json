@@ -32,7 +32,7 @@
 "fme.portForwarding" : "81;82;443;8080;8081",
 "fme.firewall"       : "80;25;5900;5800;7078",
 "fme.password"      : "FMElearnings#1",
-"fme.license"   :   "10.0.51.209",
+"fme.license"   :   "10.0.35.236",
 "fme.installApps"   : "notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat git python eclipse postman openoffice opera sql-server-express sql-server-management-studio",
 "fme.vm.instanceInitiatedShutdownBehavior" : "terminate",
 "fme.vm.Subject"    :"FME Training Virtual Machine connection instructions",
