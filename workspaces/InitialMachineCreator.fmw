@@ -1,7 +1,7 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        /Library/FME/2019.0/fme /Users/rcragg/Documents/GitHub/virtualmachines/workspaces/InitialMachineCreator.fmw
+#        /Library/FME/2019.1/fme /Users/rcragg/Documents/GitHub/virtualmachines/workspaces/InitialMachineCreator.fmw
 #              --aws_connection "FME Virtual Machines IAM Amazon Web Services"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
@@ -16,9 +16,9 @@
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_BUILD_NUM="19260"
-#!   FME_DOCUMENT_GUID="50eafcb6-6a87-47ff-8b04-02a9d78e358f"
-#!   FME_DOCUMENT_PRIORGUID="a79d2ad6-cba9-4a10-ac81-acb4b9703e89,88332b33-350f-440a-85ed-3423022786b2,49383d66-484f-424a-aa01-9f79377f3648,d120b734-e9c3-4fe0-a60b-a23cf475846b,63815b77-0bbc-4e06-ba81-d19af651fadb,d381beb0-e70a-4aef-81de-5fb320e023af,32f8321b-2643-452b-a74e-27223613658e"
+#!   FME_BUILD_NUM="19617"
+#!   FME_DOCUMENT_GUID="8990f5e6-0a70-42bb-873b-1074d80250b3"
+#!   FME_DOCUMENT_PRIORGUID="a79d2ad6-cba9-4a10-ac81-acb4b9703e89,88332b33-350f-440a-85ed-3423022786b2,49383d66-484f-424a-aa01-9f79377f3648,d120b734-e9c3-4fe0-a60b-a23cf475846b,63815b77-0bbc-4e06-ba81-d19af651fadb,d381beb0-e70a-4aef-81de-5fb320e023af,32f8321b-2643-452b-a74e-27223613658e,50eafcb6-6a87-47ff-8b04-02a9d78e358f"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -26,8 +26,8 @@
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
-#!   LAST_SAVE_BUILD="FME(R) 2019.0.2.0 (20190605 - Build 19260 - macosx)"
-#!   LAST_SAVE_DATE="2019-07-29T10:23:40"
+#!   LAST_SAVE_BUILD="FME(R) 2019.1.1.0 (20190801 - Build 19617 - macosx)"
+#!   LAST_SAVE_DATE="2019-09-20T13:26:40"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -241,7 +241,7 @@
 #!   BOUNDING_RECT="4223.541321097252 -936.50987043317616 1077.9996999970001 336"
 #!   STICKY="true"
 #!   COLOUR="0.72156862745098038,0.11372549019607843,0.12549019607843137,0.39215686274509803"
-#!   CONTENTS="24 19 20 "
+#!   CONTENTS="19 20 24 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -255,7 +255,7 @@
 #!   BOUNDING_RECT="1623.0162301623016 -799.50915042597671 3699.0369903699038 1081.509659762125"
 #!   STICKY="true"
 #!   COLOUR="0.12941176470588237,0.62745098039215685,0.7686274509803922,0.39215686274509803"
-#!   CONTENTS="17 24 22 19 20 23 25 21 16 18 "
+#!   CONTENTS="16 23 19 25 20 22 17 21 18 24 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -269,7 +269,7 @@
 #!   BOUNDING_RECT="-2005.2334180484659 -823.15283867124401 3488.5339653396532 2251.0207602076021"
 #!   STICKY="true"
 #!   COLOUR="0.71372549019607845,0.44705882352941179,0.63529411764705879,0.39215686274509803"
-#!   CONTENTS="87 66 60 58 61 12 13 86 88 59 "
+#!   CONTENTS="87 89 86 58 88 59 66 13 60 12 61 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -283,7 +283,7 @@
 #!   BOUNDING_RECT="5520.0552005520049 -394.00459140760825 10382.347813653918 2020.0194479572356"
 #!   STICKY="true"
 #!   COLOUR="0.78823529411764703,0.62745098039215685,0.28235294117647058,0.39215686274509803"
-#!   CONTENTS="34 35 33 65 42 69 43 38 45 57 62 67 46 68 32 36 55 71 44 64 70 51 56 37 41 49 50 72 52 "
+#!   CONTENTS="35 64 56 57 32 33 70 37 38 67 62 51 52 45 41 65 42 43 69 46 34 36 68 71 44 49 50 55 72 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -297,7 +297,7 @@
 #!   BOUNDING_RECT="8125.8259871889859 -560.00549917944193 4371.5429766764337 1479.0125301253011"
 #!   STICKY="true"
 #!   COLOUR="0.6470588235294118,0.42745098039215684,0.29411764705882354,0.39215686274509803"
-#!   CONTENTS="43 51 41 34 44 35 50 36 42 32 33 49 "
+#!   CONTENTS="33 44 50 49 35 34 51 42 36 32 41 43 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -311,7 +311,7 @@
 #!   BOUNDING_RECT="12643.871220571316 -576.50607918524213 3083.5300436171083 1635.0163501635018"
 #!   STICKY="true"
 #!   COLOUR="0.58823529411764708,0.5607843137254902,0.3411764705882353,0.39215686274509803"
-#!   CONTENTS="72 71 46 52 38 37 "
+#!   CONTENTS="46 71 37 38 52 72 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -325,7 +325,7 @@
 #!   BOUNDING_RECT="5577.2040370527711 -744.46781743088161 2450.0190923213795 1087.508041210936"
 #!   STICKY="true"
 #!   COLOUR="0.21568627450980393,0.18823529411764706,0.31764705882352939,0.39215686274509803"
-#!   CONTENTS="67 65 57 62 64 68 "
+#!   CONTENTS="62 68 64 57 65 67 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -341,7 +341,7 @@
 #!   BOUNDING_RECT="17292.103908151694 -2011.829429291507 837 205"
 #!   STICKY="true"
 #!   COLOUR="0.78431372549019607,0,0.015686274509803921,0.39215686274509803"
-#!   CONTENTS="75 77 76 82 80 "
+#!   CONTENTS="75 82 80 77 76 "
 #! >
 #!     <BOOKMARK_FEAT NAME="AttributeExposer" SOURCE_NODE="80" SOURCE_PORT_DESC="fi 0 "/>
 #! </BOOKMARK>
@@ -363,7 +363,7 @@
 #!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -422,7 +422,7 @@
 #!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -479,7 +479,7 @@
 #! >
 #!     <OUTPUT_FEAT NAME="&lt;SCHEMA&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_feature_type_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="attribute{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -490,7 +490,7 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_schema_handling" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="JSONFeature"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -539,16 +539,16 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="&lt;OTHER&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <OUTPUT_FEAT NAME="INITIATOR"/>
 #!     <FEAT_COLLAPSED COLLAPSED="3"/>
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="4"/>
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="JSONFeature,&quot;git.username,git.repository,git.branch,aws.name_tag,aws.s3_bucket_name,aws.region_name,aws.vpc_cidr,aws.subnet_cidr{},ami.linux,ami.windows,flexnet.ec2type,flexnet.ec2size,flexnet.volumeSize,flexnet.securityGroup,fmeserver.ec2type,fmeserver.ec2size,fmeserver.volumeSize,fmeserver.securityGroup,fmeserver.docker-compose.yaml,fmeserver.vm.repository,fmeserver.vm.workspace,fmeserver.vm.server,fmeserver.vm.token,fme.ec2type,fme.ec2size,fme.volumeSize,fme.securityGroup,fme.timezone,fme.portForwarding,fme.firewall,fme.password,fme.license,fme.installApps,fme.vm.instanceInitiatedShutdownBehavior,fme.vm.fromEmail,fme.vm.CCEmail,fme.vm.BCCEmail,web.repository,web.workspace,web.server,web.token,git.aws.files{},fme.vm.template.email{},fme.vm.template.rdp{},fme_geometry{0}&quot;"/>
@@ -612,7 +612,7 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -659,7 +659,7 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -689,7 +689,7 @@
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -748,7 +748,7 @@
 #!     <OUTPUT_FEAT NAME="ELEMENTS"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -779,7 +779,7 @@
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -831,7 +831,7 @@
 #!     <OUTPUT_FEAT NAME="SORTED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -859,6 +859,8 @@
 #!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CreationDate" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY_MODE" PARM_VALUE="No"/>
 #!     <XFORM_PARM PARM_NAME="SORT_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="SORT_PARM" PARM_VALUE="CreationDate ALPHA DESCENDING"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
@@ -878,7 +880,7 @@
 #!     <OUTPUT_FEAT NAME="SAMPLED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -909,7 +911,7 @@
 #!     <OUTPUT_FEAT NAME="NOT_SAMPLED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -960,7 +962,7 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1013,7 +1015,7 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1048,7 +1050,7 @@
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1112,7 +1114,7 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1147,7 +1149,7 @@
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1204,7 +1206,7 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1239,7 +1241,7 @@
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1271,10 +1273,12 @@
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_MSG" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;State&lt;closeparen&gt; = available"/>
 #!     <XFORM_PARM PARM_NAME="TEST_CLAUSE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="TEST"/>
+#!     <XFORM_PARM PARM_NAME="TEST_PREVIEW_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_subnet_available"/>
 #! </TRANSFORMER>
@@ -1293,7 +1297,7 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1328,7 +1332,7 @@
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1382,7 +1386,7 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1438,7 +1442,7 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1476,7 +1480,7 @@
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1542,7 +1546,7 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1587,7 +1591,7 @@
 #!   LAST_PARM_EDIT="18547"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1629,7 +1633,7 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1681,7 +1685,7 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1712,7 +1716,7 @@
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1773,7 +1777,7 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1822,7 +1826,7 @@
 #!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1873,8 +1877,9 @@
 #! >
 #!     <OUTPUT_FEAT NAME="PASSED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1902,7 +1907,6 @@
 #!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CreationDate" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Subnets" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1912,8 +1916,9 @@
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="FAILED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1941,7 +1946,6 @@
 #!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="CreationDate" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Subnets" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1950,10 +1954,12 @@
 #!     <XFORM_ATTR ATTR_NAME="GroupName" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_MSG" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST _exception ATTRIBUTE_HAS_A_VALUE &quot;&quot;"/>
 #!     <XFORM_PARM PARM_NAME="TEST_CLAUSE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="TEST"/>
+#!     <XFORM_PARM PARM_NAME="TEST_PREVIEW_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_has_exception"/>
 #! </TRANSFORMER>
@@ -1986,8 +1992,9 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.username" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2015,7 +2022,6 @@
 #!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CreationDate" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Subnets" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2034,17 +2040,17 @@
 #!   POSITION="-1614.4121001099882 -1794.2674744664314"
 #!   BOUNDING_RECT="-1614.4121001099882 -1794.2674744664314 836.50836508365092 71"
 #!   ORDER="500000000000273.25"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="19260"
+#!   LAST_PARM_EDIT="19617"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
-#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE="AWS_ACCESS_KEY AWS_SECRET_ACCESS_KEY"/>
+#!     <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE="AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PYTHONSOURCE_NEW" PARM_VALUE="import&lt;space&gt;fme&lt;lf&gt;import&lt;space&gt;fmeobjects&lt;lf&gt;import&lt;space&gt;collections&lt;lf&gt;&lt;lf&gt;from&lt;space&gt;fmewebservices&lt;space&gt;import&lt;space&gt;FMETokenConnection&lt;space&gt;&lt;space&gt;#&lt;space&gt;noqa&lt;lf&gt;from&lt;space&gt;fmegeneral.webservices&lt;space&gt;import&lt;space&gt;NamedConnectionManager&lt;lf&gt;&lt;lf&gt;def&lt;space&gt;aws_credentials_from_conn_name&lt;openparen&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;noinspection&lt;space&gt;PyArgumentList&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;named_connection&lt;space&gt;=&lt;space&gt;NamedConnectionManager&lt;openparen&gt;&lt;closeparen&gt;.getNamedConnection&lt;openparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;aws_connection&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closeparen&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;type:&lt;space&gt;FMETokenConnection&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;try:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;key_vals&lt;space&gt;=&lt;space&gt;named_connection.getKeyValues&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;key&lt;space&gt;=&lt;space&gt;key_vals.get&lt;openparen&gt;&lt;quote&gt;AWS_ACCESS_KEY&lt;quote&gt;&lt;comma&gt;&lt;space&gt;None&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;secret&lt;space&gt;=&lt;space&gt;key_vals.get&lt;openparen&gt;&lt;quote&gt;AWS_SECRET&lt;quote&gt;&lt;comma&gt;&lt;space&gt;None&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;AWS_ACCESS_KEY&lt;quote&gt;&lt;comma&gt;&lt;space&gt;key&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;AWS_SECRET_ACCESS_KEY&lt;quote&gt;&lt;comma&gt;&lt;space&gt;secret&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;except&lt;space&gt;Exception&lt;space&gt;as&lt;space&gt;e:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;_exception&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;PythonCreator_AWS_Credentials:&lt;space&gt;&lt;apos&gt;&lt;space&gt;+&lt;space&gt;repr&lt;openparen&gt;e&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PYTHONSOURCE_NEW" PARM_VALUE="import&lt;space&gt;fme&lt;lf&gt;import&lt;space&gt;fmeobjects&lt;lf&gt;import&lt;space&gt;collections&lt;lf&gt;&lt;lf&gt;from&lt;space&gt;fmewebservices&lt;space&gt;import&lt;space&gt;FMETokenConnection&lt;space&gt;&lt;space&gt;#&lt;space&gt;noqa&lt;lf&gt;from&lt;space&gt;fmegeneral.webservices&lt;space&gt;import&lt;space&gt;NamedConnectionManager&lt;lf&gt;&lt;lf&gt;def&lt;space&gt;aws_credentials_from_conn_name&lt;openparen&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;noinspection&lt;space&gt;PyArgumentList&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;named_connection&lt;space&gt;=&lt;space&gt;NamedConnectionManager&lt;openparen&gt;&lt;closeparen&gt;.getNamedConnection&lt;openparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;aws_connection&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closeparen&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;type:&lt;space&gt;FMETokenConnection&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;try:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;key_vals&lt;space&gt;=&lt;space&gt;named_connection.getKeyValues&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;key&lt;space&gt;=&lt;space&gt;key_vals.get&lt;openparen&gt;&lt;quote&gt;AWS_ACCESS_KEY&lt;quote&gt;&lt;comma&gt;&lt;space&gt;None&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;secret&lt;space&gt;=&lt;space&gt;key_vals.get&lt;openparen&gt;&lt;quote&gt;AWS_SECRET&lt;quote&gt;&lt;comma&gt;&lt;space&gt;None&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;AWS_ACCESS_KEY_ID&lt;quote&gt;&lt;comma&gt;&lt;space&gt;key&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;AWS_SECRET_ACCESS_KEY&lt;quote&gt;&lt;comma&gt;&lt;space&gt;secret&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;except&lt;space&gt;Exception&lt;space&gt;as&lt;space&gt;e:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;quote&gt;_exception&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;PythonCreator_AWS_Credentials:&lt;space&gt;&lt;apos&gt;&lt;space&gt;+&lt;space&gt;repr&lt;openparen&gt;e&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;"/>
 #!     <XFORM_PARM PARM_NAME="PYTHONSYMBOL" PARM_VALUE="aws_credentials_from_conn_name"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PythonCreator_AWS_Credentials"/>
@@ -2405,7 +2411,7 @@ DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * CreationFactory    FACTORY_NAME PythonCreator_AWS_Credentials_Creator    OUTPUT FEATURE_TYPE _____CREATED_PYTHON__
-FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCreator_AWS_Credentials    INPUT FEATURE_TYPE _____CREATED_PYTHON__    SYMBOL_NAME aws_credentials_from_conn_name    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>collections<lf><lf>from<space>fmewebservices<space>import<space>FMETokenConnection<space><space>#<space>noqa<lf>from<space>fmegeneral.webservices<space>import<space>NamedConnectionManager<lf><lf>def<space>aws_credentials_from_conn_name<openparen>feature<closeparen>:<lf><space><space><space>#<space>noinspection<space>PyArgumentList<lf><space><space><space>named_connection<space>=<space>NamedConnectionManager<openparen><closeparen>.getNamedConnection<openparen><lf><space><space><space><space><space><space><space>FME_MacroValues<openbracket><apos>aws_connection<apos><closebracket><lf><space><space><space><closeparen><space><space>#<space>type:<space>FMETokenConnection<lf><lf><space><space><space>try:<lf><space><space><space><space><space><space><space>key_vals<space>=<space>named_connection.getKeyValues<openparen><closeparen><lf><space><space><space><space><space><space><space>key<space>=<space>key_vals.get<openparen><quote>AWS_ACCESS_KEY<quote><comma><space>None<closeparen><lf><space><space><space><space><space><space><space>secret<space>=<space>key_vals.get<openparen><quote>AWS_SECRET<quote><comma><space>None<closeparen><lf><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>AWS_ACCESS_KEY<quote><comma><space>key<closeparen><lf><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>AWS_SECRET_ACCESS_KEY<quote><comma><space>secret<closeparen><lf><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>PythonCreator_AWS_Credentials:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf><space><space><space><space>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCreator_AWS_Credentials_OUTPUT        @SupplyAttributes(?,fme_feature_type,PythonCreator_AWS_Credentials)
+FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCreator_AWS_Credentials    INPUT FEATURE_TYPE _____CREATED_PYTHON__    SYMBOL_NAME aws_credentials_from_conn_name    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>collections<lf><lf>from<space>fmewebservices<space>import<space>FMETokenConnection<space><space>#<space>noqa<lf>from<space>fmegeneral.webservices<space>import<space>NamedConnectionManager<lf><lf>def<space>aws_credentials_from_conn_name<openparen>feature<closeparen>:<lf><space><space><space>#<space>noinspection<space>PyArgumentList<lf><space><space><space>named_connection<space>=<space>NamedConnectionManager<openparen><closeparen>.getNamedConnection<openparen><lf><space><space><space><space><space><space><space>FME_MacroValues<openbracket><apos>aws_connection<apos><closebracket><lf><space><space><space><closeparen><space><space>#<space>type:<space>FMETokenConnection<lf><lf><space><space><space>try:<lf><space><space><space><space><space><space><space>key_vals<space>=<space>named_connection.getKeyValues<openparen><closeparen><lf><space><space><space><space><space><space><space>key<space>=<space>key_vals.get<openparen><quote>AWS_ACCESS_KEY<quote><comma><space>None<closeparen><lf><space><space><space><space><space><space><space>secret<space>=<space>key_vals.get<openparen><quote>AWS_SECRET<quote><comma><space>None<closeparen><lf><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>AWS_ACCESS_KEY_ID<quote><comma><space>key<closeparen><lf><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>AWS_SECRET_ACCESS_KEY<quote><comma><space>secret<closeparen><lf><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>PythonCreator_AWS_Credentials:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf><space><space><space><space>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCreator_AWS_Credentials_OUTPUT        @SupplyAttributes(?,fme_feature_type,PythonCreator_AWS_Credentials)
 FACTORY_DEF * BranchingFactory   FACTORY_NAME "PythonCreator_AWS_Credentials_OUTPUT Brancher -1 89"   INPUT FEATURE_TYPE PythonCreator_AWS_Credentials_OUTPUT   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   MAXIMUM_COUNT None   OUTPUT PASSED FEATURE_TYPE *
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
@@ -2439,7 +2445,7 @@ FACTORY_DEF * ElementFactory    FACTORY_NAME ListExploder_images    INPUT  FEATU
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME ListExploder_images_<Rejected> INPUT FEATURE_TYPE ListExploder_images_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, ListExploder_images<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF * SortFactory    FACTORY_NAME Sorter    INPUT  FEATURE_TYPE ListExploder_images_ELEMENTS    SORT_BY CreationDate ALPHA DESCENDING    OUTPUT SORTED FEATURE_TYPE Sorter_SORTED
+FACTORY_DEF * SortFactory    FACTORY_NAME Sorter    INPUT  FEATURE_TYPE ListExploder_images_ELEMENTS    FLUSH_WHEN_GROUPS_CHANGE No    SORT_BY CreationDate ALPHA DESCENDING    OUTPUT SORTED FEATURE_TYPE Sorter_SORTED
 # -------------------------------------------------------------------------
 # If we're doing LAST N features, then the multiplier comes in as 0.
 # If we're doing First N, multiplier is -1.
@@ -2511,7 +2517,7 @@ FACTORY_DEF * TestFactory    FACTORY_NAME Tester_has_exception    INPUT  FEATURE
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TestFactory    FACTORY_NAME Terminator_exception    INPUT  FEATURE_TYPE Tester_has_exception_PASSED    TEST "$(_WB_BYPASS_TERMINATION)" == Yes    OUTPUT PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"@EvaluateExpression(FDIV,STRING_ENCODED,Translation<space>Terminated.<space><at>Value<openparen>_exception<closeparen>,Terminator_exception)")       @SupplyAttributes(_wb_termination_xformer,"Terminator_exception")       @SupplyAttributes(_wb_termination_feature,Yes)    OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED,"@EvaluateExpression(FDIV,STRING_ENCODED,Translation<space>Terminated.<space><at>Value<openparen>_exception<closeparen>,Terminator_exception)")
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME PythonCaller_run_instances_Output_Logger    INPUT  FEATURE_TYPE PythonCaller_run_instances_OUTPUT_0_yFPhZzzjS6s=    OUTPUT FEATURE_TYPE PythonCaller_run_instances_Output_LOGGED                  @Log(ENCODED, "PythonCaller_run_instances_Output:<space>Feature<space>is:","20","20","",WARN,LOG_ONLY,PythonCaller_run_instances_Output_86058446_8e2d_48a3_be52_28ed1a8e91880)
+FACTORY_DEF * TeeFactory    FACTORY_NAME PythonCaller_run_instances_Output_Logger    INPUT  FEATURE_TYPE PythonCaller_run_instances_OUTPUT_0_yFPhZzzjS6s=    OUTPUT FEATURE_TYPE PythonCaller_run_instances_Output_LOGGED                  @Log(ENCODED, "PythonCaller_run_instances_Output:<space>Feature<space>is:","20","20","",WARN,LOG_ONLY,PythonCaller_run_instances_Output_9b5eea71_da2d_421f_ad8c_ac6eaf5494c50)
 FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_run_instances_Output LOGGED Transformer Output Nuker"   INPUT FEATURE_TYPE PythonCaller_run_instances_Output_LOGGED
 # -------------------------------------------------------------------------
 
