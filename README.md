@@ -1,6 +1,3 @@
-# Note: 
-There is an issue with not all availability zones supporting all instance types. This can cause the VMCreator to randomly fail. A fix will be completed by the end of August. If you find that some runs of the VMCreator fail, seemingly randomly, then there is an availaility zone that will have to be removed.
-
 # FME Training Virtual Machines and Automation
 The files in this repository are used to create virtual machines for FME training courses, and to allow students to request virtual machines on-demand.
 The virtual machines are Amazon AWS EC2 machines.
@@ -11,6 +8,8 @@ A basic understanding of [GitHub](https://guides.github.com/activities/hello-wor
 You will also require an AWS account and a GitHub account.
 
 On your local machine, you will need an installation of [GitHub Desktop](https://desktop.github.com/) and FME Desktop. You may also need [Boto3 for Python](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html) installed on your local machine.
+
+On AWS, you will need to create an S3 bucket to store the RDP files that are created, and set the Permissions to allow public access. You may also want to set a Lifecycle policy to delete the RDP files after 2 weeks.
 
 Be aware that you'll probably have to request an Instance Limit increase for the EC2 instances. The default limit is 20 machines per region. At Safe Software, we have a limit of 500. Keep in mind that the Limit increase request is per region. You'll have to submit a request for each region you intend to use.
 
@@ -50,6 +49,7 @@ Create a branch that will be the name of the course.
 * `aws.region_name` The EC2 region that will be hosting the virtual Machines. Full list under [Amazon Elastic Compute Cloud (Amazon EC2)](https://docs.aws.amazon.com/general/latest/gr/rande.html)
 * `aws.vpc_cidr`  Private IP address range of the VPC
 * `aws.subnet_cidr` Address ranges of each subnet
+* `aws.rdp.bucket`  The name of the S3 bucket where the RDP files will be stored.
 ---
 * `ami.linux` Search term used to find Linux AMI
 * `ami.windows` Search term used to find Windows AMI. Use `"Microsoft Windows Server 2016 with Desktop Experience Locale English AMI provided by Amazon"` or `"Microsoft Windows Server 2019 with Desktop Experience Locale English AMI provided by Amazon"`
