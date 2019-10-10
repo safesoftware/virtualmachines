@@ -42,9 +42,6 @@ goto :eof
 :urls
 	::Adding URLs to the desktop is the preferred way of giving students their manuals. Ensures that everyone is using the same manuals
 	:: Add the URLs to c:\users\public\desktop. That way everyone gets it.
-	::Database Connections URL
-		echo [InternetShortcut] > "c:\users\public\desktop\Database Connection Parameters.url"
-		echo URL=http://fme.ly/database >>"c:\users\public\desktop\Database Connection Parameters.url"
 	:: FME Desktop Course Resources
 		echo [InternetShortcut] > "c:\users\public\desktop\FME Training Course Resources.url"
 		echo URL=https://knowledge.safe.com/articles/55282/fme-training-course-resources.html  >>"c:\users\public\desktop\FME Training Course Resources.url"
