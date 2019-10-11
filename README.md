@@ -11,9 +11,7 @@ On your local machine, you will need an installation of [GitHub Desktop](https:/
 
 On AWS, you will need to create an S3 bucket to store the RDP files that are created, and set the Permissions to allow public access. You may also want to set a Lifecycle policy to delete the RDP files after 2 weeks.
 
-Be aware that you'll probably have to request an Instance Limit increase for the EC2 instances. The default limit is 20 machines per region. At Safe Software, we have a limit of 500. Keep in mind that the Limit increase request is per region. You'll have to submit a request for each region you intend to use.
-
-Also be aware that the default VPC limit per region is 5. If you currently have 5 VPCs in your desired region, you will have to request an increase in the VPC limit.
+Be aware that the default VPC limit per region is 5. If you currently have 5 VPCs in your desired region, you will have to request an increase in the VPC limit.
 
 ![EC2 Service Increase](/images/EC2Limits.png)
 
