@@ -18,8 +18,8 @@ pushd %TEMP%
 :: setx /m EC2PASSWORD %EC2PASSWORD%
 :: net user Administrator %EC2PASSWORD%
 
-call :LaunchConfig > C:\ProgramData\Amazon\EC2-Windows\Launch\Config\LaunchConfig.json
-call :ec2launch-config > %LOG%
+:: call :LaunchConfig > C:\ProgramData\Amazon\EC2-Windows\Launch\Config\LaunchConfig.json
+:: call :ec2launch-config > %LOG%
 call :vnc >> %LOG%
 call :urls >>%LOG%
 call :autoshutdown >>%LOG%
