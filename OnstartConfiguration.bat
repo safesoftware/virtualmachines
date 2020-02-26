@@ -20,9 +20,9 @@ pushd %TEMP%
 
 :: call :LaunchConfig > C:\ProgramData\Amazon\EC2-Windows\Launch\Config\LaunchConfig.json
 :: call :ec2launch-config > %LOG%
-call :vnc >> %LOG%
+::call :vnc >> %LOG%
 call :urls >>%LOG%
-call :autoshutdown >>%LOG%
+::call :autoshutdown >>%LOG%
 call :fmedatadownload >>%LOG%
 
 
