@@ -23,6 +23,9 @@
 	:: FME Desktop Course Resources
 		echo [InternetShortcut] > "c:\users\public\desktop\FME Training Course Resources.url"
 		echo URL=https://knowledge.safe.com/articles/55282/fme-training-course-resources.html  >>"c:\users\public\desktop\FME Training Course Resources.url"
+		
+		echo [InternetShortcut] > "c:\users\public\desktop\Getting Started with FME Desktop.url"
+		echo URL=https://knowledge.safe.com/articles/1012/  >>"c:\users\public\desktop\Getting Started with FME Desktop.url"
 goto :eof
 
 
