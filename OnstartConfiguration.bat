@@ -21,6 +21,10 @@
 	:: Adding URLs to the desktop is the preferred way of giving students their manuals. Ensures that everyone is using the same manuals
 	:: Add the URLs to c:\users\public\desktop. That way everyone gets it.
 	:: FME Desktop Course Resources
+	
+		echo [InternetShortcut] > "c:\users\public\desktop\Introduction to FME Desktop.url"
+		echo URL=https://s3.amazonaws.com/gitbook/Desktop-Intro-2020/index.html  >>"c:\users\public\desktop\Introduction to FME Desktop.url"
+		
 		echo [InternetShortcut] > "c:\users\public\desktop\FME Training Course Resources.url"
 		echo URL=https://knowledge.safe.com/articles/55282/fme-training-course-resources.html  >>"c:\users\public\desktop\FME Training Course Resources.url"
 		
