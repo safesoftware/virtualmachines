@@ -50,8 +50,8 @@ goto :eof
 :autoshutdown
 	::schedule automatic shutdown.
 	:: This one sets the shutdown for a specific day and time.
-	schtasks /Create /F /RU SYSTEM /TN "AutoShutdown" /SC DAILY /st 17:30 /TR "C:\Windows\System32\shutdown.exe /s"
-	::schtasks /Create /F /RU SYSTEM /TN "AutoShutdown" /SC weekly /d WED /st 16:30 /TR "C:\Windows\System32\shutdown.exe /s"
+	:: schtasks /Create /F /RU SYSTEM /TN "AutoShutdown" /SC DAILY /st 17:30 /TR "C:\Windows\System32\shutdown.exe /s"
+	schtasks /Create /F /RU SYSTEM /TN "AutoShutdown" /SC weekly /d FRI /st 17:30 /TR "C:\Windows\System32\shutdown.exe /s"
 
 	:: This one sets the shutdown for 14 days after startup.
 	::schtasks /Create /F /RU SYSTEM /TN "AutoShutdown" /SC WEEKLY /MO 2 /TR "C:\Windows\System32\shutdown.exe /s"
