@@ -33,6 +33,9 @@
 		
 		echo [InternetShortcut] > "c:\users\public\desktop\Advanced Attribute and List Handling.url"
 		echo URL=https://knowledge.safe.com/articles/116766/  >>"c:\users\public\desktop\Advanced Attribute and List Handling.url"
+		
+		echo [InternetShortcut] > "c:\users\public\desktop\FME Server Authoring Manual.url"
+		echo URL=https://s3.amazonaws.com/gitbook/Server-Authoring-2020/index.html  >>"c:\users\public\desktop\FME Server Authoring Manual"
 goto :eof
 
 
