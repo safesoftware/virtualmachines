@@ -9,6 +9,7 @@
    pushd %TEMP%
 
 :: Call the different sections and log them
+   call :emptyRecycleBin >>%LOG%
    call :urls >>%LOG%
    call :fmedatadownload >>%LOG%
 
@@ -16,6 +17,10 @@
 :: Indicate the end of the log file.
    echo "Onstart Configuration complete" >>%LOG%
    exit /b
+
+:emptyRecycleBin
+	del /s /q %systemdrive%\$Recycle.bin
+goto :eof	
 
 :urls
 	:: Adding URLs to the desktop is the preferred way of giving students their manuals. Ensures that everyone is using the same manuals
