@@ -27,6 +27,9 @@ goto :eof
 	:: Add the URLs to c:\users\public\desktop. That way everyone gets it.
 	:: FME Desktop Course Resources
 	
+		echo [InternetShortcut] > "c:\users\public\desktop\CityWorks and FME Manual.url"
+		echo URL=https://tinyurl.com/fmecw2020  >>"c:\users\public\desktop\CityWorks and FME Manual.url"
+	
 		echo [InternetShortcut] > "c:\users\public\desktop\Introduction to FME Desktop.url"
 		echo URL=https://s3.amazonaws.com/gitbook/Desktop-Intro-2020/index.html  >>"c:\users\public\desktop\Introduction to FME Desktop.url"
 		
