@@ -29,6 +29,9 @@ goto :eof
 	
 		echo [InternetShortcut] > "c:\users\public\desktop\CityWorks and FME Manual.url"
 		echo URL=https://tinyurl.com/fmecw2020  >>"c:\users\public\desktop\CityWorks and FME Manual.url"
+		
+		echo [InternetShortcut] > "c:\users\public\desktop\CityWorks Connection.url"
+		echo URL=https://tinyurl.com/cityworks-ip  >>"c:\users\public\desktop\CityWorks Connection.url"
 	
 		echo [InternetShortcut] > "c:\users\public\desktop\Introduction to FME Desktop.url"
 		echo URL=https://s3.amazonaws.com/gitbook/Desktop-Intro-2020/index.html  >>"c:\users\public\desktop\Introduction to FME Desktop.url"
