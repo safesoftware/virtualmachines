@@ -36,8 +36,8 @@ goto :eof
 		::echo [InternetShortcut] > "c:\users\public\desktop\CityWorks Connection.url"
 		::echo URL=https://tinyurl.com/cityworks-ip  >>"c:\users\public\desktop\CityWorks Connection.url"
 	
-		::echo [InternetShortcut] > "c:\users\public\desktop\Introduction to FME Desktop.url"
-		::echo URL=https://s3.amazonaws.com/gitbook/Desktop-Intro-2020/index.html  >>"c:\users\public\desktop\Introduction to FME Desktop.url"
+		echo [InternetShortcut] > "c:\users\public\desktop\Introduction to FME Desktop.url"
+		echo URL=https://s3.amazonaws.com/gitbook/Desktop-Intro-2020/index.html  >>"c:\users\public\desktop\Introduction to FME Desktop.url"
 		
 		echo [InternetShortcut] > "c:\users\public\desktop\FME Training Course Resources.url"
 		echo URL=https://knowledge.safe.com/articles/55282/fme-training-course-resources.html  >>"c:\users\public\desktop\FME Training Course Resources.url"
