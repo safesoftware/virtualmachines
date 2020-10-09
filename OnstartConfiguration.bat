@@ -64,12 +64,13 @@ goto :eof
 goto :eof
 
 :esri
-	call :prvs>course.prvs
-	"%ProgramFiles%\ArcGIS\Pro\bin\SoftwareAuthorizationPro.exe" /LIF course.prvs /s
+	call :prvc>course.prvc
+	@echo on
+	"%ProgramFiles%\ArcGIS\Pro\bin\SoftwareAuthorizationPro.exe" /LIF course.prvc /s
 
 goto :eof
 
-:prvs
+:prvc
 @echo off
 
 echo // User Information
@@ -92,7 +93,6 @@ echo Yourself=Other
 echo // Features and authorization numbers
 echo ArcGIS Pro Advanced=ESU141956354
 
-@echo on
 goto :eof
 
 :: get any extra Chocolatey apps
