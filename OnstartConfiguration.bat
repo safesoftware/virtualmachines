@@ -5,6 +5,9 @@
 :: Set all the required variables
    set TEMP=c:\temp
    set LOG=%TEMP%\OnstartConfiguration.log
+   :: ESRIDATE is MM/DD/YYYY. Terrible I know, but that's how it is. Enter course date here
+   set ESRIDATE=10/21/2020
+   set ESRINUM=ESU141956354
    md %TEMP%
    pushd %TEMP%
 
@@ -12,6 +15,7 @@
    call :emptyRecycleBin >>%LOG%
    call :urls >>%LOG%
    call :fmedatadownload >>%LOG%
+   if %date:~4%==%ESRIDATE% call :esri >>%LOG%
 
 
 :: Indicate the end of the log file.
@@ -57,6 +61,38 @@ goto :eof
 	::download and install the current FMEData from www.safe.com/download
 	aria2c https://raw.githubusercontent.com/rjcragg/AWS/master/FMEInstalls/FMEDataDownloadInstall.bat --out=FMEDataDownloadInstall.bat --allow-overwrite=true
 	CALL FMEDataDownloadInstall.bat
+goto :eof
+
+:esri
+	call :prvs>course.prvs
+	"%ProgramFiles%\ArcGIS\Pro\bin\SoftwareAuthorizationPro.exe" /LIF course.prvs /s
+
+goto :eof
+
+:prvs
+@echo off
+
+echo // User Information
+echo First Name=ESRI
+echo Last Name=Partner
+echo Organization=SAFE
+echo Department=Dev
+echo Email=train@safe.com
+echo Address 1=380 New York St.
+echo City=Redlands
+echo State/Province=CA
+echo Location=United States
+echo Location Code=US
+echo Zip/Postal Code=92373
+echo Phone Number=909-793-2853
+echo Your Organization=Commercial/Private Business
+echo Your Industry=Other
+echo Yourself=Other
+
+echo // Features and authorization numbers
+echo ArcGIS Pro Advanced=ESU141956354
+
+@echo on
 goto :eof
 
 :: get any extra Chocolatey apps
