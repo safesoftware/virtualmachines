@@ -65,7 +65,6 @@ goto :eof
 
 :esri
 	call :prvc>course.prvc
-	@echo on
 	"%ProgramFiles%\ArcGIS\Pro\bin\SoftwareAuthorizationPro.exe" /LIF course.prvc /s
 
 goto :eof
@@ -89,11 +88,12 @@ echo Phone Number=909-793-2853
 echo Your Organization=Commercial/Private Business
 echo Your Industry=Other
 echo Yourself=Other
-
+echo.
 echo // Features and authorization numbers
 echo ArcGIS Pro Advanced=%ESRINUM%
 
-goto :eof
+@echo on
+@goto :eof
 
 :: get any extra Chocolatey apps
 ::	choco install postman -y
