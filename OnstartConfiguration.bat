@@ -91,7 +91,7 @@ echo Your Industry=Other
 echo Yourself=Other
 
 echo // Features and authorization numbers
-echo ArcGIS Pro Advanced=ESU141956354
+echo ArcGIS Pro Advanced=%ESRINUM%
 
 goto :eof
 
