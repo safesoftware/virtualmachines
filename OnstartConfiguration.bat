@@ -34,8 +34,8 @@ goto :eof
 		echo [InternetShortcut] > "c:\users\public\desktop\Integrate Your Data with the FME Platform Manual.url"
 		echo URL=http://fme.ly/integrate-with-fme  >>"c:\users\public\desktop\Integrate Your Data with the FME Platform Manual.url"
 		
-		:: echo [InternetShortcut] > "c:\users\public\desktop\Esri Geodatabase and FME Desktop.url"
-		:: echo URL=https://tinyurl.com/fmegeodb2020  >>"c:\users\public\desktop\Esri Geodatabase and FME Desktop.url"
+		echo [InternetShortcut] > "c:\users\public\desktop\Esri Geodatabase and FME Desktop.url"
+		echo URL=https://tinyurl.com/fmegeodb2020  >>"c:\users\public\desktop\Esri Geodatabase and FME Desktop.url"
 	
 		:: echo [InternetShortcut] > "c:\users\public\desktop\CityWorks and FME Manual.url"
 		:: echo URL=https://tinyurl.com/fmecw2020  >>"c:\users\public\desktop\CityWorks and FME Manual.url"
