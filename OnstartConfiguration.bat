@@ -40,8 +40,8 @@ goto :eof
 		echo [InternetShortcut] > "c:\users\public\desktop\Connect your Data to Snowflake.url"
 		echo URL=https://docs.google.com/document/d/1Z52Zly3Z2AFBlLCx1t85jzNY6fIqz4kTorDzajj5lpg/edit?usp=sharing  >>"c:\users\public\desktop\Connect your Data to Snowflake.url"
 	
-		:: echo [InternetShortcut] > "c:\users\public\desktop\CityWorks and FME Manual.url"
-		:: echo URL=https://tinyurl.com/fmecw2020  >>"c:\users\public\desktop\CityWorks and FME Manual.url"
+		echo [InternetShortcut] > "c:\users\public\desktop\CityWorks and FME Manual.url"
+		echo URL=https://tinyurl.com/fmecw2020  >>"c:\users\public\desktop\CityWorks and FME Manual.url"
 		
 		:: echo [InternetShortcut] > "c:\users\public\desktop\CityWorks Connection.url"
 		:: echo URL=https://tinyurl.com/cityworks-ip  >>"c:\users\public\desktop\CityWorks Connection.url"
