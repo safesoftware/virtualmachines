@@ -60,6 +60,9 @@ goto :eof
 		
 		echo [InternetShortcut] > "c:\users\public\desktop\FME Server Authoring Manual.url"
 		echo URL=https://s3.amazonaws.com/gitbook/Server-Authoring-2020/index.html  >>"c:\users\public\desktop\FME Server Authoring Manual.url"
+		
+		echo [InternetShortcut] > "c:\users\public\desktop\FME Desktop Overview.url"
+		echo URL=https://tinyurl.com/yypz3xh8  >>"c:\users\public\desktop\FME Desktop Overview.url"
 goto :eof
 
 
