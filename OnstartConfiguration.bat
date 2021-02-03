@@ -46,8 +46,8 @@ goto :eof
 		:: echo [InternetShortcut] > "c:\users\public\desktop\CityWorks Connection.url"
 		:: echo URL=https://tinyurl.com/cityworks-ip  >>"c:\users\public\desktop\CityWorks Connection.url"
 	
-		:: echo [InternetShortcut] > "c:\users\public\desktop\Introduction to FME Desktop.url"
-		:: echo URL=https://s3.amazonaws.com/gitbook/Desktop-Intro-2020/index.html  >>"c:\users\public\desktop\Introduction to FME Desktop.url"
+		echo [InternetShortcut] > "c:\users\public\desktop\Introduction to FME Desktop.url"
+		echo URL=https://s3.amazonaws.com/gitbook/Desktop-Intro-2020/index.html  >>"c:\users\public\desktop\Introduction to FME Desktop.url"
 		
 		echo [InternetShortcut] > "c:\users\public\desktop\FME Training Course Resources.url"
 		echo URL=https://knowledge.safe.com/articles/55282/fme-training-course-resources.html  >>"c:\users\public\desktop\FME Training Course Resources.url"
@@ -55,14 +55,14 @@ goto :eof
 		:: echo [InternetShortcut] > "c:\users\public\desktop\Getting Started with FME Desktop.url"
 		:: echo URL=https://community.safe.com/s/article/getting-started-with-fme-desktop-translate-data-be  >>"c:\users\public\desktop\Getting Started with FME Desktop.url"
 		
-		echo [InternetShortcut] > "c:\users\public\desktop\My IP Address.url"
-		echo URL=https://www.google.com/search?q=my+ip+address  >>"c:\users\public\desktop\My IP Address.url"
+		:: echo [InternetShortcut] > "c:\users\public\desktop\My IP Address.url"
+		:: echo URL=https://www.google.com/search?q=my+ip+address  >>"c:\users\public\desktop\My IP Address.url"
 		
 		echo [InternetShortcut] > "c:\users\public\desktop\FME Server Authoring Manual.url"
 		echo URL=https://s3.amazonaws.com/gitbook/Server-Authoring-2020/index.html  >>"c:\users\public\desktop\FME Server Authoring Manual.url"
 		
-		echo [InternetShortcut] > "c:\users\public\desktop\FME Desktop Overview.url"
-		echo URL=https://tinyurl.com/yypz3xh8  >>"c:\users\public\desktop\FME Desktop Overview.url"
+		:: echo [InternetShortcut] > "c:\users\public\desktop\FME Desktop Overview.url"
+		:: echo URL=https://tinyurl.com/yypz3xh8  >>"c:\users\public\desktop\FME Desktop Overview.url"
 goto :eof
 
 
