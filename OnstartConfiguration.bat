@@ -6,8 +6,8 @@
    set TEMP=c:\temp
    set LOG=%TEMP%\OnstartConfiguration.log
    :: ESRIDATE is MM/DD/YYYY. Terrible I know, but that's how it is. Enter course date here
-   set ESRIDATE=10/21/2020
-   set ESRINUM=ESU141956354
+   set ESRIDATE=03/23/2020
+   set ESRINUM=ESU250963400
    md %TEMP%
    pushd %TEMP%
 
