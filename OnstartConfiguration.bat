@@ -12,10 +12,11 @@
    pushd %TEMP%
 
 :: Call the different sections and log them
+   if %date:~4%==%ESRIDATE% call :esri >>%LOG%
    call :emptyRecycleBin >>%LOG%
    call :urls >>%LOG%
    call :fmedatadownload >>%LOG%
-   if %date:~4%==%ESRIDATE% call :esri >>%LOG%
+
 
 
 :: Indicate the end of the log file.
