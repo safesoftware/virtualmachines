@@ -83,6 +83,8 @@ goto :eof
 
 :esri
 	call :prvc>course.prvc
+	del /s /q /A:H c:\programdata\flexnet\*.*
+	del /s /q c:\programdata\flexnet\*.*
 	"%ProgramFiles%\ArcGIS\Pro\bin\SoftwareAuthorizationPro.exe" /LIF course.prvc /s
 
 goto :eof
