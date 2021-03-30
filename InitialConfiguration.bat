@@ -1,8 +1,8 @@
 ::This file does the initial configuration of the AWS instance; things that you only want to do once, like name the computer.
-::Assuming that a T3.large is being used. Provide at least 70GB of storage.
+::Assuming that a T3.xlarge is being used. Provide at least 150GB of storage.
 ::Download and run this from the (elevated?) command line (Win+R, CMD) by using the following command without the <script> start/end:
-::OR use User Data when creating the EC2 instance. Past in the following script, and replace "password fmelicenseip fmeserverserial" with the correct things:
-:: <script>powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/rjcragg/AWS/master/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat password fmelicenseip fmeserverserial</script>
+::OR use User Data when creating the EC2 instance. Paste in the following script
+:: <script>powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/safesoftware/virtualmachines/strigo/InitialConfiguration.bat -OutFile InitialConfiguration.bat" && InitialConfiguration.bat</script>
 
 :main
 	::::GENERAL SETTINGS FOR LATER IN BATCH FILE, and run procedures::::
@@ -11,10 +11,9 @@
 		::"Pacific Standard Time"
 		set TimeZone="Pacific Standard Time"
 		::https://raw.githubusercontent.com/rjcragg/AWS/master/OnstartConfiguration.bat
-		set OnstartConfigurationURL=https://raw.githubusercontent.com/rjcragg/AWS/master/OnstartConfiguration.bat
+		set OnstartConfigurationURL=https://raw.githubusercontent.com/safesoftware/virtualmachines/strigo/OnstartConfiguration.bat
 
-		set FMEDownloadInstall=https://raw.githubusercontent.com/rjcragg/AWS/master/FMEInstalls/FMEDownloadInstall.bat
-		set PORTFORWARDING=81;82;443;8080;8081
+		set FMEDownloadInstall=https://raw.githubusercontent.com/safesoftware/virtualmachines/strigo/FMEInstalls/FMEDownloadInstall.bat
 		set Oracle64InstantClient=https://s3.amazonaws.com/FMETraining/instantclient-basiclite-windows.x64-12.1.0.2.0.zip
 		set NEWCOMPUTERNAME=FMETraining
 		set TEMP=c:\temp
@@ -35,9 +34,9 @@
 	::helpfulApps are applications that are helpful. Always necessary
 		call :helpfulApps >> %LOG%
 	::installFME installs FME 32 and 64 bit, and FME Server
-		call :installFME >> %LOG%
+		:: call :installFME >> %LOG%
 	::oracle installs 32-bit and 64-bit Oracle Instant Clients
-		call :oracle >> %LOG%
+		:: call :oracle >> %LOG%
 	::second run at Chocolatey; install all the other apps
 		call :choco >> %LOG%
 	::shut down the computer
@@ -54,13 +53,9 @@ goto :eof
 		netsh firewall add portopening TCP 80 "FME Server"
 	::We should make sure port 25 is open too, for FME Server. Necessary for SMTP forwarding
 		netsh firewall add portopening TCP 25 "SMTP"
-	::We also need to open the port for UltraVNC. The installer fails to do that
-		netsh firewall add portopening TCP 5900 "VNC"
-		netsh firewall add portopening TCP 5800 "VNC"
 	::FME Server needs port 7078 opened for web sockets
 		netsh firewall add portopening TCP 7078 "WebSockets"
-	::Windows 2016 Server has stricter security settings that can block our RDP file from connecting. We can fix this with the following
-		reg add "HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp" /v SecurityLayer /t REG_DWORD /d 0 /f
+		netsh firewall add portopening TCP 8888 "Extra Tomcat webservice port"
 goto :eof
 
 :ec2Setup
@@ -74,17 +69,8 @@ goto :eof
 	:: The ports to be set are in PORTFORWARDING:
 	:: First, we reset the existing proxy ports.
 		netsh interface portproxy reset
-	:: Now we set the proxy ports and add them to the firewall
-		for %%f IN (%PORTFORWARDING%) DO (
-			netsh interface portproxy add v4tov4 listenport=%%f connectport=3389 connectaddress=%NEWCOMPUTERNAME%
-			netsh firewall add portopening TCP %%f "Remote Desktop Port Proxy"
-		)
 	::Set Computer Name. This will require a reboot. Reboot is at the end of this batch file.
 		wmic computersystem where name="%COMPUTERNAME%" call rename name="%NEWCOMPUTERNAME%"
-	::Set Password for Administrator. I hate password complexity requiremens, but they can't be changed from the command line.
-		net user Administrator %EC2PASSWORD%
-	::Make sure password does not expire.
-		WMIC USERACCOUNT WHERE "Name='administrator'" SET PasswordExpires=FALSE
 goto :eof
 
 :scheduleTasks
