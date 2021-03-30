@@ -77,7 +77,7 @@ goto :eof
 
 :fmedatadownload
 	::download and install the current FMEData from www.safe.com/download
-	aria2c https://raw.githubusercontent.com/rjcragg/AWS/master/FMEInstalls/FMEDataDownloadInstall.bat --out=FMEDataDownloadInstall.bat --allow-overwrite=true
+	aria2c https://raw.githubusercontent.com/safesoftware/virtualmachines/strigo/FMEInstalls/FMEDataDownloadInstall.bat --out=FMEDataDownloadInstall.bat --allow-overwrite=true
 	CALL FMEDataDownloadInstall.bat
 goto :eof
 
@@ -115,9 +115,6 @@ echo ArcGIS Pro Advanced=%ESRINUM%
 @echo on
 @goto :eof
 
-:: get any extra Chocolatey apps
-::	choco install postman -y
-::	choco install openoffice -y
 
 ::Update Firewall
 ::netsh firewall add portopening TCP 8888 "Extra Tomcat webservice port"
