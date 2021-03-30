@@ -110,5 +110,5 @@ goto :eof
 	::Shutdown the computer
 		echo Finished the Initial Configuration
 		echo Done! %date% %time%
-		shutdown /s /t 1
+		:: shutdown /s /t 1
 goto :eof
