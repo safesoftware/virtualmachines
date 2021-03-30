@@ -103,7 +103,7 @@ goto :eof
 :choco
 	::Some additional packages to consider:
 		::github webdeploy carbon iisexpress
-	choco install notepadplusplus google-chrome-x64 firefox adobereader googleearth windirstat git python eclipse postman openoffice choco install sqlserverexpress -y
+	choco install notepadplusplus google-chrome-x64 firefox adobereader googleearth windirstat git python eclipse postman openoffice choco install sql-server-express sql-server-management-studio-y
 goto :eof
 
 :shutdown
