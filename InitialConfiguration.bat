@@ -50,13 +50,13 @@ goto :eof
 		echo "Variables are set to:"
 		set
 	::We should make sure port 80 is open too, for FME Server. This might be unnecessary
-		netsh firewall add portopening TCP 80 "FME Server" scope=ALL
-		netsh firewall add portopening TCP 443 "FME Server" scope=ALL
+		netsh advfirewall firewall add rule name="FMEServer" dir=in action=allow profile=any localport=80 protocol=tcp
+		netsh advfirewall firewall add rule name="FMEServer" dir=in action=allow profile=any localport=443 protocol=tcp
 	::We should make sure port 25 is open too, for FME Server. Necessary for SMTP forwarding
-		netsh firewall add portopening TCP 25 "SMTP" scope=ALL
+		netsh advfirewall firewall add rule name="SMTP" dir=in action=allow profile=any localport=25 protocol=tcp
 	::FME Server needs port 7078 opened for web sockets
-		netsh firewall add portopening TCP 7078 "WebSockets" scope=ALL
-		netsh firewall add portopening TCP 8888 "Extra Tomcat webservice port" scope=ALL
+		netsh advfirewall firewall add rule name="WebSockets" dir=in action=allow profile=any localport=7078 protocol=tcp
+		netsh advfirewall firewall add rule name="Extra Tomcat webservice port" dir=in action=allow profile=any localport=8888 protocol=tcp
 goto :eof
 
 :ec2Setup
