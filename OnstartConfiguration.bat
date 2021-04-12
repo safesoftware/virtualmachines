@@ -15,6 +15,7 @@
    if %date:~4%==%ESRIDATE% call :esri >>%LOG%
    call :emptyRecycleBin >>%LOG%
    call :urls >>%LOG%
+   call :fmeserverhoops >>%LOG%
    call :fmedatadownload >>%LOG%
 
 
@@ -91,6 +92,20 @@ goto :eof
 	del /s /q c:\programdata\flexnet\*.*
 	"%ProgramFiles%\ArcGIS\Pro\bin\SoftwareAuthorizationPro.exe" /LIF course.prvc /s
 
+goto :eof
+
+:fmeserverhoops
+:: FME Server sometimes doesn't like to start properly. Halt it and try again here
+	taskkill /f /t /fi "USERNAME eq SYSTEM" /im postgres.exe
+	net stop "FME Server Engines"
+	net stop "FME Server Core" /y
+	net stop FMEServerAppServer
+	net stop "FME Server Database"
+
+	net start FMEServerAppServer
+	net start "FME Server Database"
+	net start "FME Server Core"
+	net start "FME Server Engines"
 goto :eof
 
 :prvc
