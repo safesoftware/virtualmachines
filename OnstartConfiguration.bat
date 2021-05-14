@@ -75,6 +75,11 @@ goto :eof
 		:: echo URL=https://tinyurl.com/yypz3xh8  >>"c:\users\public\desktop\FME Desktop Overview.url"
 goto :eof
 
+:fmeserverhoops
+	:: FME Server sometimes doesn't like to start properly. Halt it and try again here
+	CALL "C:\Program Files\FMEServer\Server\WindowsService\restartFMEServerWindowsService.bat"
+
+goto :eof
 
 :fmedatadownload
 	::download and install the current FMEData from www.safe.com/download
@@ -94,11 +99,7 @@ goto :eof
 
 goto :eof
 
-:fmeserverhoops
-	:: FME Server sometimes doesn't like to start properly. Halt it and try again here
-	CALL "C:\Program Files\FMEServer\Server\WindowsService\restartFMEServerWindowsService.bat"
 
-goto :eof
 
 :prvc
 @echo off
