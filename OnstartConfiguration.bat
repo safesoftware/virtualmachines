@@ -81,7 +81,7 @@ goto :eof
 	::aria2c https://raw.githubusercontent.com/safesoftware/virtualmachines/strigo/FMEInstalls/FMEDataDownloadInstall.bat --out=FMEDataDownloadInstall.bat --allow-overwrite=true
 	::CALL FMEDataDownloadInstall.bat
 	aria2c https://s3.amazonaws.com/FMEData/FMEData2021.zip --allow-overwrite=true
-	:Unzip FMEData
+	::Unzip FMEData
 	for %%f in (FMEDATA*.zip) do 7z x -oc:\ -aoa %%f
 	
 goto :eof
@@ -95,7 +95,7 @@ goto :eof
 goto :eof
 
 :fmeserverhoops
-:: FME Server sometimes doesn't like to start properly. Halt it and try again here
+	:: FME Server sometimes doesn't like to start properly. Halt it and try again here
 	start "" "C:\Program Files\FMEServer\Server\WindowsService\restartFMEServerWindowsService.bat"
 
 goto :eof
