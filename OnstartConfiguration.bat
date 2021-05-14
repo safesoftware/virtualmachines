@@ -15,7 +15,7 @@
    if %date:~4%==%ESRIDATE% call :esri >>%LOG%
    call :emptyRecycleBin >>%LOG%
    call :urls >>%LOG%
-   call :fmeserverhoops >>%LOG%
+ ::  call :fmeserverhoops >>%LOG%
    call :fmedatadownload >>%LOG%
 
 
