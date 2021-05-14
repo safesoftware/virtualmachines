@@ -96,7 +96,7 @@ goto :eof
 
 :fmeserverhoops
 	:: FME Server sometimes doesn't like to start properly. Halt it and try again here
-	start "" "C:\Program Files\FMEServer\Server\WindowsService\restartFMEServerWindowsService.bat"
+	CALL "C:\Program Files\FMEServer\Server\WindowsService\restartFMEServerWindowsService.bat"
 
 goto :eof
 
