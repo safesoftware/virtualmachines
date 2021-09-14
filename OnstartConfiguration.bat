@@ -35,8 +35,11 @@ goto :eof
 	
 		del /s /q c:\users\public\desktop\*.url
 		
-		echo [InternetShortcut] > "c:\users\public\desktop\Analyze Spatial Data Module.url"
-		echo URL=https://safe.my.trailhead.com/en/content/safe/modules/analyze-spatial-data  >>"c:\users\public\desktop\Analyze Spatial Data Module.url"
+		echo [InternetShortcut] > "c:\users\public\desktop\How to use an Esri Template.url"
+		echo URL=https://community.safe.com/s/article/how-to-use-an-esri-template  >>"c:\users\public\desktop\How to use an Esri Template.url"
+		
+		:: echo [InternetShortcut] > "c:\users\public\desktop\Analyze Spatial Data Module.url"
+		:: echo URL=https://safe.my.trailhead.com/en/content/safe/modules/analyze-spatial-data  >>"c:\users\public\desktop\Analyze Spatial Data Module.url"
 	
 		echo [InternetShortcut] > "c:\users\public\desktop\Integrate Your Data with the FME Platform Manual.url"
 		echo URL=http://fme.ly/integrate-with-fme  >>"c:\users\public\desktop\Integrate Your Data with the FME Platform Manual.url"
