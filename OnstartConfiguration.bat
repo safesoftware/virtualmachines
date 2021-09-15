@@ -35,6 +35,9 @@ goto :eof
 	
 		del /s /q c:\users\public\desktop\*.url
 		
+		echo [InternetShortcut] > "c:\users\public\desktop\Tutorial-Geodatabase Transformations.url"
+		echo URL=https://community.safe.com/s/article/tutorial-getting-started-with-complex-geodatabase  >>"c:\users\public\desktop\Tutorial-Geodatabase Transformations.url"
+	
 		echo [InternetShortcut] > "c:\users\public\desktop\How to use an Esri Template.url"
 		echo URL=https://community.safe.com/s/article/how-to-use-an-esri-template  >>"c:\users\public\desktop\How to use an Esri Template.url"
 		
