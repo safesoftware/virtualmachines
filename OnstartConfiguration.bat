@@ -93,6 +93,9 @@ goto :eof
 :fmeserverhoops
 	:: FME Server sometimes doesn't like to start properly. Halt it and try again here
 	CALL "C:\Program Files\FMEServer\Server\WindowsService\restartFMEServerWindowsService.bat"
+	
+	:: Set the network discoverability. This isn't related to FME Server, but it might as well go here.
+	netsh advfirewall firewall set rule group=”network discovery” new enable=yes
 
 goto :eof
 
