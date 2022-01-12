@@ -8,4 +8,4 @@
 8. Open Localhost in browser, and ensure that FME Server is properly licensed.
 9. Open Google Earth to see if it has a DirectX vs OpenGL warning. Set appropriately.
 10. Run Ec2LaunchSettings. "Shutdown without Sysprep"
-11. Create new AMI. Set the Description as the Branch.
+11. Create new AMI--leave Description blank. After the image is complete, edit the Description to `FME 20xx.x for Strigo`.
