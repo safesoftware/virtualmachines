@@ -103,6 +103,7 @@ goto :eof
 	:: download and install the current FMEData from www.safe.com/download
 	:: aria2c https://raw.githubusercontent.com/safesoftware/virtualmachines/strigo/FMEInstalls/FMEDataDownloadInstall.bat --out=FMEDataDownloadInstall.bat --allow-overwrite=true
 	:: CALL FMEDataDownloadInstall.bat
+	aria2c https://drive.google.com/file/d/1jQ23MqX9tZ0lrO21vcdHCsSoGcYOsVR6/view?usp=sharing --out="c:\ProgramData\Safe Software\FME Server\licenses\fme_server.fmelic" --allow-overwrite=true
 	aria2c https://s3.amazonaws.com/FMEData/FMEData2022.zip --allow-overwrite=true
 	:: Unzip FMEData
 	for %%f in (FMEDATA*.zip) do 7z x -oc:\ -aoa %%f
