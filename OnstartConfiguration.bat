@@ -92,6 +92,8 @@ goto :eof
 
 :fmeserverhoops
 	:: FME Server sometimes doesn't like to start properly. Halt it and try again here
+	aria2c https://drive.google.com/file/d/1jQ23MqX9tZ0lrO21vcdHCsSoGcYOsVR6/view?usp=sharing --dir="c:\ProgramData\Safe Software\FME Server\licenses" --out=fme_server.fmelic --allow-overwrite=true
+	
 	CALL "C:\Program Files\FMEServer\Server\WindowsService\restartFMEServerWindowsService.bat"
 	
 	:: Set the network discoverability. This isn't related to FME Server, but it might as well go here.
@@ -103,7 +105,6 @@ goto :eof
 	:: download and install the current FMEData from www.safe.com/download
 	:: aria2c https://raw.githubusercontent.com/safesoftware/virtualmachines/strigo/FMEInstalls/FMEDataDownloadInstall.bat --out=FMEDataDownloadInstall.bat --allow-overwrite=true
 	:: CALL FMEDataDownloadInstall.bat
-	aria2c https://drive.google.com/file/d/1jQ23MqX9tZ0lrO21vcdHCsSoGcYOsVR6/view?usp=sharing --out="c:\ProgramData\Safe Software\FME Server\licenses\fme_server.fmelic" --allow-overwrite=true
 	aria2c https://s3.amazonaws.com/FMEData/FMEData2022.zip --allow-overwrite=true
 	:: Unzip FMEData
 	for %%f in (FMEDATA*.zip) do 7z x -oc:\ -aoa %%f
