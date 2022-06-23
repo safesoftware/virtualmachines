@@ -92,7 +92,7 @@ goto :eof
 
 :fmeserverhoops
 	:: FME Server sometimes doesn't like to start properly. Halt it and try again here
-	aria2c https://drive.google.com/file/d/1jQ23MqX9tZ0lrO21vcdHCsSoGcYOsVR6/view?usp=sharing --dir="c:\ProgramData\Safe Software\FME Server\licenses" --out=fme_server.fmelic --allow-overwrite=true
+	aria2c https://s3.amazonaws.com/FMETemp/Server_June.fmelic --dir="c:\ProgramData\Safe Software\FME Server\licenses" --out=fme_server.fmelic --allow-overwrite=true
 	
 	CALL "C:\Program Files\FMEServer\Server\WindowsService\restartFMEServerWindowsService.bat"
 	
