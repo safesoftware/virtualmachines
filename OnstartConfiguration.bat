@@ -32,7 +32,7 @@ goto :eof
 	:: Adding URLs to the desktop is the preferred way of giving students their manuals. Ensures that everyone is using the same manuals
 	:: Add the URLs to c:\users\public\desktop. That way everyone gets it.
 	:: FME Desktop Course Resources
-
+		choco install opera -y
 		del /s /q c:\users\public\desktop\*.url
 
     echo [InternetShortcut] > "c:\users\public\desktop\FMEData2021 File List.url"
