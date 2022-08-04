@@ -10,20 +10,6 @@
 "aws.subnet_cidr"     : ["10.0.0.0/19","10.0.32.0/19","10.0.64.0/19","10.0.96.0/19"],
 "aws.rdp.bucket"      : "FMETemp",
 
-"ami.linux"           : "Amazon Linux 2 AMI*",
-"ami.windows"         : "Microsoft Windows Server 2019 with Desktop Experience Locale English AMI provided by Amazon",
-
-"flexnet.ec2type"       : "t3",
-"flexnet.ec2size"       : "nano",
-"flexnet.volumeSize"    : 8,
-"flexnet.securityGroup"  : "flexnet",
-
-"fmeserver.ec2type"     : "t3",
-"fmeserver.ec2size"     : "medium",
-"fmeserver.volumeSize"  : 40,
-"fmeserver.securityGroup"  : "fmeserver",
-"fmeserver.docker-compose.yaml" : "https://s3-us-west-2.amazonaws.com/safe-software-container-deployments/2019.1.0-beta/latest/docker-compose.yaml",
-
 "fme.ec2type"       : "g4ad",
 "fme.ec2size"       : "xlarge",
 "fme.volumeSize"    : 200,
@@ -36,7 +22,7 @@
 "fme.installApps"   : "notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat git python eclipse postman openoffice opera sql-server-express sql-server-management-studio",
 "fme.vm.instanceInitiatedShutdownBehavior" : "terminate",
 "fme.vm.Subject"    :"FME Training Virtual Machine connection instructions",
-"fme.vm.fromEmail"  : "\"FME Training\" <train@safe.com>",
+"fme.vm.fromEmail"  : "\"FME Training\" <ryan.cragg@safe.com>",
 "fme.vm.CCEmail"    : "ryan.cragg@safe.com",
 "fme.vm.BCCEmail"   : "emailtosalesforce@3bxfu520n23ghfjugzh0uta0y.in.salesforce.com",
 
