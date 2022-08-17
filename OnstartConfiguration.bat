@@ -33,6 +33,7 @@ goto :eof
 	:: Adding URLs to the desktop is the preferred way of giving students their manuals. Ensures that everyone is using the same manuals
 	:: Add the URLs to c:\users\public\desktop. That way everyone gets it.
 	:: FME Desktop Course Resources
+	start "" /MAX 'c:\program files\fme\fmeworkbench.exe'
 		del /s /q c:\users\public\desktop\*.url
 
     echo [InternetShortcut] > "c:\users\public\desktop\FMEData2021 File List.url"
