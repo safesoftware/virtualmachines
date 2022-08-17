@@ -26,7 +26,7 @@
 
 :emptyRecycleBin
 	del /s /q %systemdrive%\$Recycle.bin
-	echo start "" /MAX "c:\program files\fme\fmeworkbench.exe" > “C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\startup.bat”
+	echo "start "" /MAX 'c:\program files\fme\fmeworkbench.exe'" > 'C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\startup.bat'
 goto :eof
 
 :urls
