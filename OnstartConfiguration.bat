@@ -26,7 +26,6 @@
 
 :emptyRecycleBin
 	del /s /q %systemdrive%\$Recycle.bin
-	echo "start "" /MAX 'c:\program files\fme\fmeworkbench.exe'" > "C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\startup.bat"
 goto :eof
 
 :urls
@@ -35,8 +34,8 @@ goto :eof
 	:: FME Desktop Course Resources
 		del /s /q c:\users\public\desktop\*.url
 
-    echo [InternetShortcut] > "c:\users\public\desktop\FMEData2021 File List.url"
-		echo URL=https://s3.amazonaws.com/FMEData/FMEData2021/index.html  >>"c:\users\public\desktop\FMEData2021 File List.url"
+    echo [InternetShortcut] > "c:\users\public\desktop\FMEData2022 File List.url"
+		echo URL=https://s3.amazonaws.com/FMEData/FMEData2022/index.html  >>"c:\users\public\desktop\FMEData2022 File List.url"
 
 		echo [InternetShortcut] > "c:\users\public\desktop\Getting Started with ArcGIS Online and Portal.url"
 		echo URL=https://community.safe.com/s/article/Tutorial-Getting-Started-with-ArcGIS-Online-and-Portal#Connecting  >>"c:\users\public\desktop\Getting Started with ArcGIS Online and Portal.url"
