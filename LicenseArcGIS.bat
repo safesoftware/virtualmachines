@@ -1,29 +1,36 @@
+
+
+:: Set all the required variables
    set TEMP=c:\temp
-   set LOG=%TEMP%\OnstartConfiguration.log
-   :: ESRIDATE is MM/DD/YYYY. Terrible I know, but that's how it is. Enter course date here
-   set ESRIDATE=08/23/2021
-   set ESRINUM=ESU250963400
+   set LOG=%TEMP%\ArcGISLicense.log
+   set ESRINUM=ESU789872986
    md %TEMP%
    pushd %TEMP%
 
 :: Call the different sections and log them
-   if %date:~4%==%ESRIDATE% call :esri >>%LOG%
+   call :esri >>%LOG%
    call :emptyRecycleBin >>%LOG%
-   call :urls >>%LOG%
-   call :fmeserverhoops >>%LOG%
-   call :fmedatadownload >>%LOG%
 
+:: Indicate the end of the log file.
+   echo "ArcGIS Licensing complete" >>%LOG%
+   exit /b
 
 :emptyRecycleBin
 	del /s /q %systemdrive%\$Recycle.bin
 goto :eof
 
-:: Indicate the end of the log file.
-   echo "Onstart Configuration complete" >>%LOG%
-   exit /b
-   
-   
-   :prvc
+
+:esri
+	call :prvc>course.prvc
+	del /s /q /A:H c:\programdata\flexnet\*.*
+	del /s /q c:\programdata\flexnet\*.*
+	"%ProgramFiles%\ArcGIS\Pro\bin\SoftwareAuthorizationPro.exe" /LIF course.prvc /s
+
+goto :eof
+
+
+
+:prvc
 @echo off
 
 echo // User Information
@@ -48,3 +55,4 @@ echo ArcGIS Pro Advanced=%ESRINUM%
 
 @echo on
 @goto :eof
+
