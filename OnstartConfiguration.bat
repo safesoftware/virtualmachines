@@ -91,14 +91,11 @@ goto :eof
 
 :fmeserverhoops
 	:: FME Server sometimes doesn't like to start properly. Halt it and try again here
-	aria2c https://raw.githubusercontent.com/safesoftware/virtualmachines/strigo/LicenseArcGIS.bat --out=LicenseArcGIS.bat --allow-overwrite=true
-	copy LicenseArcGIS.bat c:\users\public\desktop\ /Y
+	:: aria2c https://raw.githubusercontent.com/safesoftware/virtualmachines/strigo/LicenseArcGIS.bat --out=LicenseArcGIS.bat --allow-overwrite=true
+	:: copy LicenseArcGIS.bat c:\users\public\desktop\ /Y
 	aria2c https://s3.amazonaws.com/FMETemp/Server_June.fmelic --dir="c:\ProgramData\Safe Software\FME Server\licenses" --out=fme_server.fmelic --allow-overwrite=true
 	
 	CALL "C:\Program Files\FMEServer\Server\WindowsService\restartFMEServerWindowsService.bat"
-	
-	:: Set the network discoverability. This isn't related to FME Server, but it might as well go here.
-	netsh advfirewall firewall set rule group=”network discovery” new enable=yes
 
 goto :eof
 
