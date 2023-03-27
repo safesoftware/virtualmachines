@@ -105,14 +105,14 @@ goto :eof
 	:: CALL FMEDataDownloadInstall.bat
 	pushd %TEMP%
 	aria2c https://s3.amazonaws.com/FMEData/FMEData2022.zip --allow-overwrite=true
-	aria2c https://s3.amazonaws.com/FMEData/FMEData2019.zip --allow-overwrite=true
+	:: aria2c https://s3.amazonaws.com/FMEData/FMEData2019.zip --allow-overwrite=true
 	for %%f in (FMEDATA*.zip) do 7z x -oc:\ -aoa %%f
-	aria2c https://s3.amazonaws.com/FMEData/FMEData2021.zip --allow-overwrite=true
-	aria2c https://s3.amazonaws.com/FMEData/FMEData2020.zip --allow-overwrite=true
+	:: aria2c https://s3.amazonaws.com/FMEData/FMEData2021.zip --allow-overwrite=true
+	:: aria2c https://s3.amazonaws.com/FMEData/FMEData2020.zip --allow-overwrite=true
 
 	:: Unzip FMEData
-	7z x -oc:\ -aoa FMEData2021.zip
-	7z x -oc:\ -aoa FMEData2020.zip
+	:: 7z x -oc:\ -aoa FMEData2021.zip
+	:: 7z x -oc:\ -aoa FMEData2020.zip
 
 goto :eof
 
