@@ -104,14 +104,16 @@ goto :eof
 	:: aria2c https://raw.githubusercontent.com/safesoftware/virtualmachines/strigo/FMEInstalls/FMEDataDownloadInstall.bat --out=FMEDataDownloadInstall.bat --allow-overwrite=true
 	:: CALL FMEDataDownloadInstall.bat
 	pushd %TEMP%
-	aria2c https://s3.amazonaws.com/FMEData/FMEData/Resources/Interagency/CreateDowntownParksSQLServer.fmw --allow-overwrite=true
-	start "" "C:\Program Files\FME\fme.exe" CreateDowntownParksSQLServer.fmw
+
 	aria2c https://s3.amazonaws.com/FMEData/FMEData2022.zip --allow-overwrite=true
 	:: aria2c https://s3.amazonaws.com/FMEData/FMEData2019.zip --allow-overwrite=true
 	for %%f in (FMEDATA*.zip) do 7z x -oc:\ -aoa %%f
 	:: aria2c https://s3.amazonaws.com/FMEData/FMEData2021.zip --allow-overwrite=true
 	:: aria2c https://s3.amazonaws.com/FMEData/FMEData2020.zip --allow-overwrite=true
-
+	
+	aria2c https://s3.amazonaws.com/FMEData/FMEData/Resources/Interagency/CreateDowntownParksSQLServer.fmw --allow-overwrite=true
+	start "" "C:\Program Files\FME\fme.exe" CreateDowntownParksSQLServer.fmw
+	
 	:: Unzip FMEData
 	:: 7z x -oc:\ -aoa FMEData2021.zip
 	:: 7z x -oc:\ -aoa FMEData2020.zip
