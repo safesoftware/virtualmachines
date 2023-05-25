@@ -34,47 +34,10 @@ goto :eof
 	:: FME Desktop Course Resources
 		del /s /q c:\users\public\desktop\*.url
 
-    echo [InternetShortcut] > "c:\users\public\desktop\FMEData2022 File List.url"
-		echo URL=https://s3.amazonaws.com/FMEData/FMEData2022/index.html  >>"c:\users\public\desktop\FMEData2022 File List.url"
+		echo [InternetShortcut] > "c:\users\public\desktop\FMEData File List.url"
+		echo URL=https://s3.amazonaws.com/FMEData/FMEData/index.html  >>"c:\users\public\desktop\FMEData File List.url"
 
-		echo [InternetShortcut] > "c:\users\public\desktop\Getting Started with ArcGIS Online and Portal.url"
-		echo URL=https://community.safe.com/s/article/Tutorial-Getting-Started-with-ArcGIS-Online-and-Portal#Connecting  >>"c:\users\public\desktop\Getting Started with ArcGIS Online and Portal.url"
 
-		echo [InternetShortcut] > "c:\users\public\desktop\Tutorial-Geodatabase Transformations.url"
-		echo URL=https://community.safe.com/s/article/tutorial-getting-started-with-complex-geodatabase  >>"c:\users\public\desktop\Tutorial-Geodatabase Transformations.url"
-
-		:: echo [InternetShortcut] > "c:\users\public\desktop\How to use an Esri Template.url"
-		:: echo URL=https://community.safe.com/s/article/how-to-use-an-esri-template  >>"c:\users\public\desktop\How to use an Esri Template.url"
-
-		:: echo [InternetShortcut] > "c:\users\public\desktop\Analyze Spatial Data Module.url"
-		:: echo URL=https://safe.my.trailhead.com/en/content/safe/modules/analyze-spatial-data  >>"c:\users\public\desktop\Analyze Spatial Data Module.url"
-
-		:: echo [InternetShortcut] > "c:\users\public\desktop\Integrate Your Data with the FME Platform Manual.url"
-		:: echo URL=http://fme.ly/integrate-with-fme  >>"c:\users\public\desktop\Integrate Your Data with the FME Platform Manual.url"
-
-		echo [InternetShortcut] > "c:\users\public\desktop\Getting Started with FME Desktop.url"
-		echo URL=https://community.safe.com/s/article/getting-started-with-fme-desktop-translate-data-be  >>"c:\users\public\desktop\Getting Started with FME Desktop.url"
-
-		echo [InternetShortcut] > "c:\users\public\desktop\Getting Started with FME Server.url"
-		echo URL=https://community.safe.com/s/article/getting-started-with-fme-server  >>"c:\users\public\desktop\Getting Started with FME Server.url"
-
-		:: echo [InternetShortcut] > "c:\users\public\desktop\Esri Geodatabase and FME Desktop.url"
-		:: echo URL=https://tinyurl.com/fmegeodb2020  >>"c:\users\public\desktop\Esri Geodatabase and FME Desktop.url"
-
-		:: echo [InternetShortcut] > "c:\users\public\desktop\Connect your Data to Snowflake.url"
-		:: echo URL=https://docs.google.com/document/d/1Z52Zly3Z2AFBlLCx1t85jzNY6fIqz4kTorDzajj5lpg/edit?usp=sharing  >>"c:\users\public\desktop\Connect your Data to Snowflake.url"
-
-		:: echo [InternetShortcut] > "c:\users\public\desktop\CityWorks and FME Manual.url"
-		:: echo URL=https://tinyurl.com/fmecw2020  >>"c:\users\public\desktop\CityWorks and FME Manual.url"
-
-		:: echo [InternetShortcut] > "c:\users\public\desktop\CityWorks Connection.url"
-		:: echo URL=https://tinyurl.com/cityworks-ip  >>"c:\users\public\desktop\CityWorks Connection.url"
-
-		:: echo [InternetShortcut] > "c:\users\public\desktop\Introduction to FME Desktop.url"
-		:: echo URL=https://s3.amazonaws.com/gitbook/Desktop-Intro-2020/index.html  >>"c:\users\public\desktop\Introduction to FME Desktop.url"
-
-		echo [InternetShortcut] > "c:\users\public\desktop\FME Training Course Resources.url"
-		echo URL=https://knowledge.safe.com/articles/55282/fme-training-course-resources.html  >>"c:\users\public\desktop\FME Training Course Resources.url"
 
 		:: echo [InternetShortcut] > "c:\users\public\desktop\Getting Started with FME Desktop.url"
 		:: echo URL=https://community.safe.com/s/article/getting-started-with-fme-desktop-translate-data-be  >>"c:\users\public\desktop\Getting Started with FME Desktop.url"
@@ -106,6 +69,7 @@ goto :eof
 	pushd %TEMP%
 
 	aria2c https://s3.amazonaws.com/FMEData/FMEData2022.zip --allow-overwrite=true
+	aria2c https://s3.amazonaws.com/FMEData/FMEData.zip --allow-overwrite=true
 	:: aria2c https://s3.amazonaws.com/FMEData/FMEData2019.zip --allow-overwrite=true
 	for %%f in (FMEDATA*.zip) do 7z x -oc:\ -aoa %%f
 	:: aria2c https://s3.amazonaws.com/FMEData/FMEData2021.zip --allow-overwrite=true
