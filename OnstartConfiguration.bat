@@ -60,6 +60,7 @@ goto :eof
 	aria2c https://s3.amazonaws.com/FMETemp/Server_June.fmelic --dir="c:\ProgramData\Safe Software\FMEFlow\licenses" --out=fme_server.fmelic --allow-overwrite=true
 	
 	CALL "C:\Program Files\FMEServer\Server\WindowsService\restartFMEServerWindowsService.bat"
+	CALL "C:\Program Files\FMEFlow\Server\WindowsService\restartFMEServerWindowsService.bat"
 
 goto :eof
 
