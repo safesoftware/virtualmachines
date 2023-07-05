@@ -56,8 +56,8 @@ goto :eof
 	:: FME Server sometimes doesn't like to start properly. Halt it and try again here
 	:: aria2c https://raw.githubusercontent.com/safesoftware/virtualmachines/strigo/LicenseArcGIS.bat --out=LicenseArcGIS.bat --allow-overwrite=true
 	:: copy LicenseArcGIS.bat c:\users\public\desktop\ /Y
-	aria2c https://s3.amazonaws.com/FMETemp/Server_June.fmelic --dir="c:\ProgramData\Safe Software\FME Server\licenses" --out=fme_server.fmelic --allow-overwrite=true
-	aria2c https://s3.amazonaws.com/FMETemp/Server_June.fmelic --dir="c:\ProgramData\Safe Software\FMEFlow\licenses" --out=fme_server.fmelic --allow-overwrite=true
+	aria2c https://s3.amazonaws.com/FMETemp/Server_July.fmelic --dir="c:\ProgramData\Safe Software\FME Server\licenses" --out=fme_server.fmelic --allow-overwrite=true
+	aria2c https://s3.amazonaws.com/FMETemp/Server_July.fmelic --dir="c:\ProgramData\Safe Software\FMEFlow\licenses" --out=fme_server.fmelic --allow-overwrite=true
 	
 	CALL "C:\Program Files\FMEServer\Server\WindowsService\restartFMEServerWindowsService.bat"
 	CALL "C:\Program Files\FMEFlow\Server\WindowsService\restartFMEServerWindowsService.bat"
@@ -70,8 +70,10 @@ goto :eof
 	:: CALL FMEDataDownloadInstall.bat
 	pushd %TEMP%
 
-	aria2c https://s3.amazonaws.com/FMEData/FMEData2022.zip --allow-overwrite=true
 	aria2c https://s3.amazonaws.com/FMEData/FMEData.zip --allow-overwrite=true
+
+	aria2c https://s3.amazonaws.com/FMEData/FMEData2022.zip --allow-overwrite=true
+
 	:: aria2c https://s3.amazonaws.com/FMEData/FMEData2019.zip --allow-overwrite=true
 	for %%f in (FMEDATA*.zip) do 7z x -oc:\ -aoa %%f
 	:: aria2c https://s3.amazonaws.com/FMEData/FMEData2021.zip --allow-overwrite=true
