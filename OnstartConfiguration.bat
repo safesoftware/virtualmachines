@@ -73,7 +73,7 @@ goto :eof
 
 	aria2c https://s3.amazonaws.com/FMEData/FMEData.zip --allow-overwrite=true
 
-	aria2c https://s3.amazonaws.com/FMEData/FMEData2022.zip --allow-overwrite=true
+	:: aria2c https://s3.amazonaws.com/FMEData/FMEData2022.zip --allow-overwrite=true
 
 	:: aria2c https://s3.amazonaws.com/FMEData/FMEData2019.zip --allow-overwrite=true
 	for %%f in (FMEDATA*.zip) do 7z x -oc:\ -aoa %%f
