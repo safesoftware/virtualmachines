@@ -26,6 +26,8 @@
    exit /b
 
 :emptyRecycleBin
+	:: For 2024, we need to delete "C:\Users\Administrator\AppData\Roaming\Safe Software\FME\fme_userconnection.data"
+	del /s /q "C:\Users\Administrator\AppData\Roaming\Safe Software\FME\fme_userconnection.data"
 	del /s /q %systemdrive%\$Recycle.bin
 goto :eof
 
