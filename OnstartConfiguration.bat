@@ -13,11 +13,11 @@
 
 :: Call the different sections and log them
    if %date:~4%==%ESRIDATE% call :esri >>%LOG%
-   call :emptyRecycleBin >>%LOG%
-   call :urls >>%LOG%
    call :fmeserverhoops >>%LOG%
+   call :urls >>%LOG%
    call :fmedatadownload >>%LOG%
    call :fmeserverhoops >>%LOG%
+   call :emptyRecycleBin >>%LOG%
 
 
 
