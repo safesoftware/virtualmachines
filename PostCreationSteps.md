@@ -7,7 +7,9 @@
 7. Add connections for FME Flow (Training FME Server) and PostGIS (postgis.train.safe.com fmedata) as `FME Training PostGIS Database'
 8. Add a connection for Microsoft SQL Server. `Localhost FMEData` `FMETRAINING\SQLEXPRESS`. Create an `fmedata` database.
 9. Open Localhost in browser, and ensure that FME Flow is properly licensed. Check that Form and Flow licenses won't expire for at least 1 year.
-10. Load the FoodVendors-Complete.fsproject project. May need encryption file in same folder.
-11. Open Google Earth to see if it has a DirectX vs OpenGL warning. Set appropriately.
-12. Run Ec2LaunchSettings. "Shutdown without Sysprep"
-13. Create new AMI--leave Description blank. After the image is complete, edit the Description to `FME 20xx.x for Strigo`.
+10. Disable auto-start for FME Flow.
+11. Install the Mouse Powertoy.
+12. Load the FoodVendors-Complete.fsproject project. May need encryption file in same folder.
+13. Open Google Earth to see if it has a DirectX vs OpenGL warning. Set appropriately.
+14. Run Ec2LaunchSettings. "Shutdown without Sysprep"
+15. Create new AMI--leave Description blank. After the image is complete, edit the Description to `FME 20xx.x for Strigo`.
