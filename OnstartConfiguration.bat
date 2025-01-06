@@ -65,6 +65,7 @@ goto :eof
 	
 	:: CALL "C:\Program Files\FMEServer\Server\WindowsService\restartFMEServerWindowsService.bat"
 	CALL "C:\Program Files\FMEFlow\Server\WindowsService\restartFMEServerWindowsService.bat"
+	CALL "C:\Program Files\FMEFlow\Server\WindowsService\restartFMEFlowWindowsService.bat"
 
 goto :eof
 
