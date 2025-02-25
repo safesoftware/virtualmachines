@@ -14,3 +14,7 @@
 14. Open Google Earth to see if it has a DirectX vs OpenGL warning. Set appropriately.
 15. Run Ec2LaunchSettings. "Shutdown without Sysprep"
 16. Create new AMI--leave Description blank. After the image is complete, edit the Description to `FME 20xx.x for Strigo`.
+
+## FME 2025 Updates ##
+1. Remove the old Business Licenses CSV reader from the FME Accelerator workspace
+2. Place a copy of the BusinessLicenses SQLite database into the FME Accelerator data folder, and update the workspace.
