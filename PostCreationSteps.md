@@ -7,7 +7,7 @@
 9. Open FME Flow and license it. Save username and password. Load FoodVendors-Complete.fsproject
 10. Open FME Workbench and Data Inspector to ensure they are properly licensed, and pin them to Task Bar.
 11. Open SQL Server Management Studio
-12. Set Connections to be Shared.
+12. Set Connections to be Shared. Save to `C:\Users\Administrator\Documents\FME\Workspaces`. Password is `fmedata`
 13. Add Web Connections for:
  FME Flow (Training FME Flow) and 
 PostGIS (postgis.train.safe.com fmedata) as `FME Training PostGIS Database'
