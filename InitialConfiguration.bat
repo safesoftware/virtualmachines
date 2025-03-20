@@ -72,6 +72,7 @@ goto :eof
 		netsh interface portproxy reset
 	::Set Computer Name. This will require a reboot. Reboot is at the end of this batch file.
 		wmic computersystem where name="%COMPUTERNAME%" call rename name="%NEWCOMPUTERNAME%"
+		powershell Rename-Computer -NewName "%NEWCOMPUTERNAME%"
 goto :eof
 
 :scheduleTasks
