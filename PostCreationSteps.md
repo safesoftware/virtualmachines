@@ -7,8 +7,23 @@
 
 ## Configure SQL Server ##
 1. Open SQL Server Management Studio
-2. Create fmedata database
-3. Add [NT AUTHORITY\SYSTEM] to fmedata
+```
+CREATE DATABASE fmedata;
+GO
+
+USE fmedata;
+GO
+
+CREATE LOGIN [NT AUTHORITY\SYSTEM] FROM WINDOWS;
+GO
+
+CREATE USER [NT AUTHORITY\SYSTEM] FOR LOGIN [NT AUTHORITY\SYSTEM];
+GO
+
+ALTER ROLE db_owner ADD MEMBER [NT AUTHORITY\SYSTEM];
+GO
+```
+
 
 ## Install FME Platform ##
 7. Download and install FME Form
