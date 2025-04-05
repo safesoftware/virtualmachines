@@ -29,7 +29,7 @@ GO
 7. Download and install FME Form
 8. Download and install FME Flow. FME Flow database user/user/pwd is fmeflow
 9. Set Firefox to be default browser and pin to Task Bar. Disable search suggestions. Set FME Flow as homepage
-10. Open FME Flow and license it. Save username and password. Load FoodVendors-Complete.fsproject
+10. Open FME Flow and license it. Save username and password `admin` and `FMElearnings`. Load FoodVendors-Complete.fsproject
 11. Open FME Workbench and Data Inspector to ensure they are properly licensed, and pin them to Task Bar.
 
 13. Set Connections to be Shared. Save to `C:\Users\Administrator\Documents\FME\Workspaces`. Password is `fmedata`
@@ -40,7 +40,7 @@ PostGIS (postgis.train.safe.com fmedata) as `FME Training PostGIS Database'
 16. Add a connection for Microsoft SQL Server. `Localhost FMEData` `FMETRAINING\SQLEXPRESS`. Create an `fmedata` database.
 17. Open Localhost in browser, and ensure that FME Flow is properly licensed. Check that Form and Flow licenses won't expire for at least 1 year.
 18. Set the FME Flow engines to 4.
-19. Disable auto-start for FME Flow.
+19. Disable auto-start for FME Flow using `services.msc`
 20. Install the Mouse Powertoy.
 21. Load the FoodVendors-Complete.fsproject project. May need encryption file in same folder.
 22. Open Google Earth to see if it has a DirectX vs OpenGL warning. Set appropriately.
