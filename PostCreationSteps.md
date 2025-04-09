@@ -41,6 +41,13 @@ PostGIS (postgis.train.safe.com fmedata) as `FME Training PostGIS Database'
 17. Open Localhost in browser, and ensure that FME Flow is properly licensed. Check that Form and Flow licenses won't expire for at least 1 year.
 18. Set the FME Flow engines to 4.
 19. Disable auto-start for FME Flow using `services.msc`
+```
+sc config "FMEFlowAppServer" start= demand
+sc config "FME Flow Core" start= demand
+sc config "FME Flow Database" start= demand
+sc config "FME Flow Engines" start= demand
+```
+
 20. Install the Mouse Powertoy.
 21. Load the FoodVendors-Complete.fsproject project. May need encryption file in same folder.
 22. Open Google Earth to see if it has a DirectX vs OpenGL warning. Set appropriately.
