@@ -37,23 +37,23 @@ GO
 ```
 
 ## Install FME Flow ##
-8. Download and install FME Flow. FME Flow database user/user/pwd is fmeflow
-9. 19. Disable auto-start for FME Flow using `services.msc`
+1. Download and install FME Flow. FME Flow database user/user/pwd is fmeflow
+2. 19. Disable auto-start for FME Flow using `services.msc`
 ```
 sc config "FMEFlowAppServer" start= demand
 sc config "FME Flow Core" start= demand
 sc config "FME Flow Database" start= demand
 sc config "FME Flow Engines" start= demand
 ```
-9. Set Firefox to be default browser and pin to Task Bar. Disable search suggestions. Set FME Flow as homepage
-10. Open FME Flow and license it. Save username and password `admin` and `FMElearnings`.
+3. Set Firefox to be default browser and pin to Task Bar. Disable search suggestions. Set FME Flow as homepage
+4. Open FME Flow and license it. Save username and password `admin` and `FMElearnings`.
 11. Load FoodVendors-Complete.fsproject
 12. Set the FME Flow engines to 4.
 
     
 ## Install FME Form ##
-7. Download and install FME Form
-11. Open FME Workbench and Data Inspector to ensure they are properly licensed, and pin them to Task Bar.
+1. Download and install FME Form
+2. Open FME Workbench and Data Inspector to ensure they are properly licensed, and pin them to Task Bar.
 13. Set Connections to be Shared. Save to `C:\FMEData\Resources\FMEAccelerator`.
 14. Open c:\FMEData\Resources\FMEAccelerator\FoodVendors-Start.fmw and install required packages.
 15. Add Web Connections for:
@@ -67,4 +67,4 @@ PostGIS (postgis.train.safe.com fmedata) as `FME Training PostGIS Database'
 24. Create new AMI--leave Description blank. After the image is complete, edit the Description to `FME 20xx.x for Strigo`.
 
 ## FME 2025 Updates ##
-2. Place a copy of the BusinessLicenses SQLite database into the FME Accelerator data folder, and update the workspace.
+1. Place a copy of the BusinessLicenses SQLite database into the FME Accelerator data folder, and update the workspace.
