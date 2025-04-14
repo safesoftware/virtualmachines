@@ -6,7 +6,7 @@
 1. Install G5 drivers
 
 ## Configure SQL Server ##
-1. Open SQL Server Management Studio
+1. Open SQL Server Management Studio, and execute the following:
 ```
 CREATE DATABASE fmedata;
 GO
@@ -38,7 +38,7 @@ GO
 
 ## Install FME Flow ##
 1. Download and install FME Flow. FME Flow database user/user/pwd is fmeflow
-2. 19. Disable auto-start for FME Flow using `services.msc`
+2. Disable auto-start for FME Flow using `services.msc`
 ```
 sc config "FMEFlowAppServer" start= demand
 sc config "FME Flow Core" start= demand
