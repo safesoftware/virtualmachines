@@ -1,4 +1,3 @@
-<script>
 # InitialConfiguration.ps1
 # This script performs one-time configuration of an AWS EC2 Windows instance.
 # Run as Administrator or in User Data for EC2 provisioning.
@@ -41,6 +40,12 @@ net user Administrator $AdminPassword
 
 # Set Administrator password to never expire using PowerShell
 Set-LocalUser -Name "Administrator" -PasswordNeverExpires $true
+
+# Show hidden files in Explorer and show file extensions
+Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" -Name "Hidden" -Value 1
+Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" -Name "HideFileExt" -Value 0
+
+
 
 # Schedule a shutdown every Friday at 5:30 PM if enabled
 if ($EnableScheduledShutdown) {
@@ -159,4 +164,3 @@ if ($RestartRequired) {
     Write-Host "Restarting computer to apply system changes..."
     Restart-Computer -Force
 }
-</script>
