@@ -1,6 +1,8 @@
+<powershell>
 # InitialConfiguration.ps1
 # This script performs one-time configuration of an AWS EC2 Windows instance.
-# Run as Administrator or in User Data for EC2 provisioning.
+# This is used in AWS, but not Strigo.
+# This script is intended to be run as part of the User Data for an EC2 instance.
 
 # === CONFIGURATION ===
 
@@ -13,9 +15,9 @@ $Log = "$Temp\InitialConfiguration.log"
 $TimeZone = "Pacific Standard Time"
 $NewComputerName = "FMETraining"
 $AdminPassword = "FMElearnings#1"
-$EnableScheduledShutdown = $false
-$EnableFlowShortcut = $false
-$RestartRequired = $false  # Flag to trigger reboot at the end if name change is needed
+$EnableScheduledShutdown = $false   ### This is for interviews
+$EnableFlowShortcut = $false   ### This is for interviews
+$RestartRequired = $false  # Flag to trigger reboot at the end if name change is needed. Do this if using an Amazon AMI.
 
 # Ensure temp directory exists; create if not
 if (-Not (Test-Path -Path $Temp)) {
@@ -77,11 +79,6 @@ function BasicSetup {
     foreach ($rule in $rules) {
         New-NetFirewallRule -DisplayName $rule.Name -Direction Inbound -LocalPort $rule.Port -Protocol TCP -Action Allow -Profile Any -ErrorAction SilentlyContinue
     }
-}
-
-function EC2Setup {
-    Write-Host "Configuring EC2 settings"
-    # Placeholder: No EC2-specific setup currently required
 }
 
 function ScheduleTasks {
@@ -151,7 +148,6 @@ function ChocoMoreApps {
 
 # === Main Execution ===
 BasicSetup         # Setup firewall and other system configurations
-EC2Setup           # Placeholder for EC2-specific logic
 ScheduleTasks      # Register startup task for future configuration
 HelpfulApps        # Ensure core utilities are installed
 ChocoMoreApps      # Install broader set of development and productivity tools
@@ -164,3 +160,6 @@ if ($RestartRequired) {
     Write-Host "Restarting computer to apply system changes..."
     Restart-Computer -Force
 }
+
+</powershell>
+<<persist>true</persist>

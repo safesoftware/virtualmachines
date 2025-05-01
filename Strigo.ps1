@@ -1,13 +1,13 @@
 <powershell>
-# This is for use in Strigo User Data.
+# This is for use in Strigo User Data for individual courses.
+# This file should only contain configuration that should be done class-by-class.
 # === Configuration ===
 $OpenWorkspace = $true    ### Set to $false if you don't want to open the .fmw file
-$StartFolder = "C:\FMEData\Resources\FMEAccelerator"  ### This is the default folder to open in FME Workbench.
-
 $fmwURL = "https://s3.amazonaws.com/FMEData/FMEData/Resources/FMEAccelerator/FoodVendors-Start.fmw"    ### This is the URL to download the fmw from. Don't leave blank.
-$fmwDIR = "C:\FMEData\Resources\FMEAccelerator"   ### This is the output folder
-$fmw =  "FoodVendors-Start.fmw"   ### Name of the workspace to open. Must match URL name
+$fmwDIR = "C:\FMEData\Resources\FMEAccelerator"   ### This is the local folder for the workspace.
+$fmw =  "FoodVendors-Start.fmw"   ### Name of the workspace to open. Must match URL name.
 
+$StartFolder = "C:\FMEData\Resources\FMEAccelerator"  ### This is the default folder to open in FME Workbench.
 $SharedConnectionsFolder = "C:\FMEData\Resources\FMEAccelerator" ### Where the shared connections database is stored
 
 #=== Do Stuff ===
