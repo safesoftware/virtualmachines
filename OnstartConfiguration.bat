@@ -52,6 +52,8 @@ goto :eof
 goto :eof
 
 :fmedatadownload
+	echo ==== Starting FMEData Download at %TIME% ==== >> %LOG%
+
 	pushd %TEMP%
 
 	aria2c https://s3.amazonaws.com/FMEData/FMEData.zip --allow-overwrite=true
