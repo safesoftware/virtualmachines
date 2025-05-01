@@ -60,4 +60,4 @@ Set-ItemProperty -Path $Registry -Name "MostRecentWorkspacePath" -Value $StartFo
 
 
 </powershell>
-<<persist>true</persist>
+<persist>true</persist>

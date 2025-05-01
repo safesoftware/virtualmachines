@@ -162,4 +162,4 @@ if ($RestartRequired) {
 }
 
 </powershell>
-<<persist>true</persist>
+<persist>true</persist>
