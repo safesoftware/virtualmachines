@@ -2,7 +2,7 @@
 :: These are things that should always be done ONSTART
 :: We call this instead of just using UserData so that we can update this while machines are running
 :: This file is for things we want in AWS and Strigo
-
+@echo off
 :: Set all the required variables
    set TEMP=c:\temp
    set LOG=%TEMP%\OnstartConfiguration.log
@@ -45,7 +45,10 @@ goto :eof
 
 :fmeserverhoops
 	:: FME Server sometimes doesn't like to start properly. Halt it and try again here
-	aria2c https://s3.amazonaws.com/FMETemp/Server_January.fmelic --dir="c:\ProgramData\Safe Software\FMEFlow\licenses" --out=fme_server.fmelic --allow-overwrite=true
+	aria2c https://s3.amazonaws.com/FMETemp/Server_January.fmelic ^ 
+		--dir="c:\ProgramData\Safe Software\FMEFlow\licenses" ^
+		--out=fme_server.fmelic ^
+		--allow-overwrite=true
 	
 	echo ==== Starting FME Flow Service at %TIME% ==== 
 	echo. | call "C:\Program Files\FMEFlow\Server\WindowsService\startFMEFlowWindowsService.bat" > "c:\temp\fmeflow_start.log" 2>>&1
@@ -55,6 +58,7 @@ goto :eof
 
 :writefmelicense
 	:: Create or overwrite the FME floating license file
+	echo ==== Create FME Floating License ==== 
 	set LICENSE_FILE=C:\ProgramData\Safe Software\FME\Licenses\fme_license.dat
 
 	:: Make sure the folder exists
@@ -69,7 +73,7 @@ goto :eof
 	) > "%LICENSE_FILE%"
 
 	:: Log it
-	echo ==== FME Floating License written at %TIME% ==== >> %LOG%
+	echo ==== FME Floating License created at %TIME% ==== 
 
 goto :eof
 
@@ -85,9 +89,11 @@ goto :eof
   		--split=16 ^
   		--min-split-size=1M ^
   		--enable-http-pipelining=true ^
-  		--summary-interval=1
-
+  		--summary-interval=30
+	
+	echo ==== Completed FMEData Download at %TIME% ==== 
+	echo ==== Unzip FMEData at %TIME% ==== 
 	for %%f in (FMEData*.zip) do 7z x -oc:\ -aoa %%f
-
+	echo ==== Unzipping FMEData Completed at %TIME% ==== 
 goto :eof
 
