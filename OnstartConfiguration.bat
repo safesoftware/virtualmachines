@@ -22,7 +22,7 @@
 
 :: Indicate the end of the log file.
    echo ==== Onstart Configuration completed at %DATE% %TIME% ==== >>%LOG%
-   exit /b 0
+   exit /b 
 
 :emptyRecycleBin
 
