@@ -79,7 +79,13 @@ goto :eof
 
 	pushd %TEMP%
 
-	aria2c https://s3.amazonaws.com/FMEData/FMEData.zip --allow-overwrite=true
+	aria2c https://s3.amazonaws.com/FMEData/FMEData.zip ^
+  		--allow-overwrite=true ^
+  		--max-connection-per-server=16 ^
+  		--split=16 ^
+  		--min-split-size=1M ^
+  		--enable-http-pipelining=true ^
+  		--summary-interval=1
 
 	for %%f in (FMEData*.zip) do 7z x -oc:\ -aoa %%f
 
