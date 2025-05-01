@@ -16,6 +16,7 @@
 
 :: Call the different sections and log them
    call :fmeserverhoops >>%LOG%
+   call :writefmelicense >>%LOG%
    call :urls >>%LOG%
    call :fmedatadownload >>%LOG%
    call :emptyRecycleBin >>%LOG%
@@ -51,6 +52,27 @@ goto :eof
 
 
 goto :eof
+
+:writefmelicense
+	:: Create or overwrite the FME floating license file
+	set LICENSE_FILE=C:\ProgramData\Safe Software\FME\Licenses\fme_license.dat
+
+	:: Make sure the folder exists
+	if not exist "C:\ProgramData\Safe Software\FME\Licenses" (
+		md "C:\ProgramData\Safe Software\FME\Licenses"
+	)
+
+	:: Write contents to the file
+	(
+		echo SERVER 52.39.248.214 Any
+		echo USE_SERVER
+	) > "%LICENSE_FILE%"
+
+	:: Log it
+	echo ==== FME Floating License written at %TIME% ==== >> %LOG%
+
+goto :eof
+
 
 :fmedatadownload
 	echo ==== Starting FMEData Download at %TIME% ==== 
