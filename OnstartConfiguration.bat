@@ -9,6 +9,11 @@
    md %TEMP%
    pushd %TEMP%
 
+:: Indicate the Start of the log file.
+   echo ==== Onstart Configuration starting at %DATE% %TIME% ==== > %LOG%
+
+ 
+
 :: Call the different sections and log them
    call :fmeserverhoops >>%LOG%
    call :urls >>%LOG%
@@ -16,7 +21,7 @@
    call :emptyRecycleBin >>%LOG%
 
 :: Indicate the end of the log file.
-   echo "Onstart Configuration complete" >>%LOG%
+   echo ==== Onstart Configuration completed at %DATE% %TIME% ==== >>%LOG%
    exit /b 0
 
 :emptyRecycleBin
@@ -41,7 +46,7 @@ goto :eof
 	aria2c https://s3.amazonaws.com/FMETemp/Server_January.fmelic --dir="c:\ProgramData\Safe Software\FMEFlow\licenses" --out=fme_server.fmelic --allow-overwrite=true
 	
 	echo ==== Starting FME Flow Service at %TIME% ==== >> %LOG%
-	start "" cmd /c ""C:\Program Files\FMEFlow\Server\WindowsService\startFMEFlowWindowsService.bat" >> "%TEMP%\fmeflow_start.log" 2>>&1"
+	start "" cmd /c ""C:\Program Files\FMEFlow\Server\WindowsService\startFMEFlowWindowsService.bat" >> "%TEMP%\fmeflow_start.log" 2^>^&1"
 
 
 
