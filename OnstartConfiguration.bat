@@ -7,17 +7,15 @@
    set TEMP=c:\temp
    set LOG=%TEMP%\OnstartConfiguration.log
 
-
 	if not exist "%TEMP%" (
 		md "%TEMP%"
 	)
 
    pushd %TEMP%
+echo ==== Log file writing to %LOG% ====
 
 :: Indicate the Start of the log file.
    echo ==== Onstart Configuration starting at %DATE% %TIME% ==== > %LOG%
-
- 
 
 :: Call the different sections and log them
    call :fmeserverhoops >>%LOG%
@@ -42,7 +40,11 @@ goto :eof
 		echo ==== Adding URLs to Desktop at %TIME% ==== 
 		del /s /q c:\users\public\desktop\*.url
 
-		echo [InternetShortcut] > "c:\users\public\desktop\FMEData File List.url"
+		(
+			echo [InternetShortcut]
+			echo URL=https://s3.amazonaws.com/FMEData/FMEData/index.html
+		) > "c:\users\public\desktop\FMEData File List.url"
+
 		echo URL=https://s3.amazonaws.com/FMEData/FMEData/index.html  >>"c:\users\public\desktop\FMEData File List.url"
 
 
@@ -65,6 +67,7 @@ goto :eof
 	:: Create or overwrite the FME floating license file
 	echo ==== Create FME Floating License ==== 
 	set LICENSE_FILE=C:\ProgramData\Safe Software\FME\Licenses\fme_license.dat
+	set LMUTIL=C:\Program Files\FME\utilites\lmutil.exe
 
 	:: Make sure the folder exists
 	if not exist "C:\ProgramData\Safe Software\FME\Licenses" (
@@ -77,11 +80,12 @@ goto :eof
 		echo USE_SERVER
 	) > "%LICENSE_FILE%"
 
+	
 	:: Log it
 	echo ==== FME Floating License created at %TIME% ==== 
+	%LMUTIL% lmstat -c "%LICENSE_FILE%" -f FME
 
 goto :eof
-
 
 :fmedatadownload
 	echo ==== Starting FMEData Download at %TIME% ==== 
