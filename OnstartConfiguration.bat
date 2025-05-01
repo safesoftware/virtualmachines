@@ -6,7 +6,12 @@
 :: Set all the required variables
    set TEMP=c:\temp
    set LOG=%TEMP%\OnstartConfiguration.log
-   md %TEMP%
+
+
+	if not exist "%TEMP%" (
+		md "%TEMP%"
+	)
+
    pushd %TEMP%
 
 :: Indicate the Start of the log file.
@@ -93,7 +98,7 @@ goto :eof
 	
 	echo ==== Completed FMEData Download at %TIME% ==== 
 	echo ==== Unzip FMEData at %TIME% ==== 
-	for %%f in (FMEData*.zip) do 7z x -oc:\ -aoa %%f
+	for %%f in (FMEData*.zip) do 7z x -oc:\ -aou %%f
 	echo ==== Unzipping FMEData Completed at %TIME% ==== 
 goto :eof
 
