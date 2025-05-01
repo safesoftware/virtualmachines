@@ -67,7 +67,7 @@ goto :eof
 	:: Create or overwrite the FME floating license file
 	echo ==== Create FME Floating License ==== 
 	set LICENSE_FILE=C:\ProgramData\Safe Software\FME\Licenses\fme_license.dat
-	set LMUTIL=C:\Program Files\FME\utilites\lmutil.exe
+	set LMUTIL=C:\Program Files\FME\utilities\lmutil.exe
 
 	:: Make sure the folder exists
 	if not exist "C:\ProgramData\Safe Software\FME\Licenses" (
