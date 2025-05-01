@@ -24,7 +24,7 @@ echo ==== Log file writing to %LOG% ====
    call :fmedatadownload >>%LOG%
    call :emptyRecycleBin >>%LOG%
 
-:: Indicate the end of the log file.
+:: Indicate the end of the log file and exit
    echo ==== Onstart Configuration completed at %DATE% %TIME% ==== >>%LOG%
    exit /b 0
 
@@ -36,7 +36,7 @@ goto :eof
 :urls
 	:: Adding URLs to the desktop is the preferred way of giving students their manuals. Ensures that everyone is using the same manuals
 	:: Add the URLs to c:\users\public\desktop. That way everyone gets it.
-	:: FME Desktop Course Resources
+	:: FME Course Resources
 		echo ==== Adding URLs to Desktop at %TIME% ==== 
 		del /s /q c:\users\public\desktop\*.url
 
@@ -83,7 +83,7 @@ goto :eof
 	
 	:: Log it
 	echo ==== FME Floating License created at %TIME% ==== 
-	%LMUTIL% lmstat -c "%LICENSE_FILE%" -f FME
+	"%LMUTIL%" lmstat -c "%LICENSE_FILE%" -f FME
 
 goto :eof
 
