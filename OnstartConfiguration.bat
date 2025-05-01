@@ -25,7 +25,7 @@
    exit /b 0
 
 :emptyRecycleBin
-
+	echo ==== Emptying the Recycle Bin at %TIME% ==== 
 	del /s /q %systemdrive%\$Recycle.bin
 goto :eof
 
@@ -33,6 +33,7 @@ goto :eof
 	:: Adding URLs to the desktop is the preferred way of giving students their manuals. Ensures that everyone is using the same manuals
 	:: Add the URLs to c:\users\public\desktop. That way everyone gets it.
 	:: FME Desktop Course Resources
+		echo ==== Adding URLs to Desktop at %TIME% ==== 
 		del /s /q c:\users\public\desktop\*.url
 
 		echo [InternetShortcut] > "c:\users\public\desktop\FMEData File List.url"
@@ -45,14 +46,14 @@ goto :eof
 	:: FME Server sometimes doesn't like to start properly. Halt it and try again here
 	aria2c https://s3.amazonaws.com/FMETemp/Server_January.fmelic --dir="c:\ProgramData\Safe Software\FMEFlow\licenses" --out=fme_server.fmelic --allow-overwrite=true
 	
-	echo ==== Starting FME Flow Service at %TIME% ==== >> %LOG%
+	echo ==== Starting FME Flow Service at %TIME% ==== 
 	echo. | call "C:\Program Files\FMEFlow\Server\WindowsService\startFMEFlowWindowsService.bat" > "c:\temp\fmeflow_start.log" 2>>&1
 
 
 goto :eof
 
 :fmedatadownload
-	echo ==== Starting FMEData Download at %TIME% ==== >> %LOG%
+	echo ==== Starting FMEData Download at %TIME% ==== 
 
 	pushd %TEMP%
 
