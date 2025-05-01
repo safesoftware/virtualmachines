@@ -18,15 +18,15 @@ echo ==== Log file writing to %LOG% ====
    echo ==== Onstart Configuration starting at %DATE% %TIME% ==== > %LOG%
 
 :: Call the different sections and log them
-echo ==== Making FME Flow Happy ====
+	echo ==== Making FME Flow Happy ====
    call :fmeserverhoops >>%LOG%
-echo ==== Making FME Form Happy ====   
+	echo ==== Making FME Form Happy ====   
    call :writefmelicense >>%LOG%
-echo ==== Putting Links on the Desktop ====      
+	echo ==== Putting Links on the Desktop ====      
    call :urls >>%LOG%
-echo ==== Getting FMEData ====   
+	echo ==== Getting FMEData ====   
    call :fmedatadownload >>%LOG%
-echo ==== Taking out the Trash ====      
+	echo ==== Taking out the Trash ====      
    call :emptyRecycleBin >>%LOG%
 
 :: Indicate the end of the log file and exit
