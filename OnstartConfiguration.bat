@@ -45,7 +45,7 @@ goto :eof
 
 :fmeserverhoops
 	:: FME Server sometimes doesn't like to start properly. Halt it and try again here
-	aria2c https://s3.amazonaws.com/FMETemp/Server_January.fmelic ^ 
+	aria2c https://s3.amazonaws.com/FMETemp/Server_January.fmelic ^
 		--dir="c:\ProgramData\Safe Software\FMEFlow\licenses" ^
 		--out=fme_server.fmelic ^
 		--allow-overwrite=true
