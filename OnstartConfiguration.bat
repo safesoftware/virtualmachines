@@ -18,10 +18,15 @@ echo ==== Log file writing to %LOG% ====
    echo ==== Onstart Configuration starting at %DATE% %TIME% ==== > %LOG%
 
 :: Call the different sections and log them
+echo ==== Making FME Flow Happy ====
    call :fmeserverhoops >>%LOG%
+echo ==== Making FME Form Happy ====   
    call :writefmelicense >>%LOG%
+echo ==== Putting Links on the Desktop ====      
    call :urls >>%LOG%
+echo ==== Getting FMEData ====   
    call :fmedatadownload >>%LOG%
+echo ==== Taking out the Trash ====      
    call :emptyRecycleBin >>%LOG%
 
 :: Indicate the end of the log file and exit
@@ -45,13 +50,10 @@ goto :eof
 			echo URL=https://s3.amazonaws.com/FMEData/FMEData/index.html
 		) > "c:\users\public\desktop\FMEData File List.url"
 
-		echo URL=https://s3.amazonaws.com/FMEData/FMEData/index.html  >>"c:\users\public\desktop\FMEData File List.url"
-
-
 goto :eof
 
 :fmeserverhoops
-	:: FME Server sometimes doesn't like to start properly. Halt it and try again here
+	:: FME Flow sometimes doesn't like to start properly. So we start it manually here.
 	aria2c https://s3.amazonaws.com/FMETemp/Server_January.fmelic ^
 		--dir="c:\ProgramData\Safe Software\FMEFlow\licenses" ^
 		--out=fme_server.fmelic ^
@@ -59,7 +61,6 @@ goto :eof
 	
 	echo ==== Starting FME Flow Service at %TIME% ==== 
 	echo. | call "C:\Program Files\FMEFlow\Server\WindowsService\startFMEFlowWindowsService.bat" > "c:\temp\fmeflow_start.log" 2>>&1
-
 
 goto :eof
 
