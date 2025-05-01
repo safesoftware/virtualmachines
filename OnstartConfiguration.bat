@@ -46,8 +46,7 @@ goto :eof
 	aria2c https://s3.amazonaws.com/FMETemp/Server_January.fmelic --dir="c:\ProgramData\Safe Software\FMEFlow\licenses" --out=fme_server.fmelic --allow-overwrite=true
 	
 	echo ==== Starting FME Flow Service at %TIME% ==== >> %LOG%
-	start "" cmd /c ""C:\Program Files\FMEFlow\Server\WindowsService\startFMEFlowWindowsService.bat" >> "%TEMP%\fmeflow_start.log" 2^>^&1"
-
+	start "" cmd /c ""C:\Program Files\FMEFlow\Server\WindowsService\startFMEFlowWindowsService.bat" > "%TEMP%\fmeflow_start.log" 2>>&1"
 
 
 goto :eof
