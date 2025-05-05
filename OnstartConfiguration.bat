@@ -103,7 +103,8 @@ goto :eof
 	
 	echo ==== Completed FMEData Download at %TIME% ==== 
 	echo ==== Unzip FMEData at %TIME% ==== 
-	for %%f in (FMEData*.zip) do 7z x -oc:\ -aou %%f
+	rd /s /q "C:\FMEData"
+	for %%f in (FMEDATA*.zip) do 7z x -oc:\ -aoa %%f
 	echo ==== Unzipping FMEData Completed at %TIME% ==== 
 goto :eof
 
