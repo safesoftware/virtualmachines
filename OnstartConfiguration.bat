@@ -49,7 +49,7 @@ goto :eof
 			echo [InternetShortcut]
 			echo URL=https://s3.amazonaws.com/FMEData/FMEData/index.html
 		) > "c:\users\public\desktop\FMEData File List.url"
-		
+
 	#======== This is just for the ArcGIS Course. Remove after UC	
 		(
 			echo [InternetShortcut]
@@ -109,7 +109,7 @@ goto :eof
 	
 	echo ==== Completed FMEData Download at %TIME% ==== 
 	echo ==== Unzip FMEData at %TIME% ==== 
-	rd /s /q "C:\FMEData"
+	rd /s /q "C:\FMEData\Resources\FMEUC25"
 	for %%f in (FMEDATA*.zip) do 7z x -oc:\ -aoa %%f
 	echo ==== Unzipping FMEData Completed at %TIME% ==== 
 goto :eof
