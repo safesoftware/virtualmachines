@@ -49,6 +49,12 @@ goto :eof
 			echo [InternetShortcut]
 			echo URL=https://s3.amazonaws.com/FMEData/FMEData/index.html
 		) > "c:\users\public\desktop\FMEData File List.url"
+		
+	#======== This is just for the ArcGIS Course. Remove after UC	
+		(
+			echo [InternetShortcut]
+			echo URL=https://bluesky-safe-software.fmecloud.com/fmeserver/apps/DataCollection
+		) > "c:\users\public\desktop\Attendee App Submission.url"
 
 goto :eof
 
