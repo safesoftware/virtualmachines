@@ -112,10 +112,9 @@ goto :eof
 
 	#===Fix a prior unzip screwup===
 	for /r "C:\FMEData" %%f in (*_1.*) do (
-    	echo Deleting "%%f"
     	del /q "%%f"
 	)
-	
+
 	for %%f in (FMEDATA*.zip) do 7z x -oc:\ -aoa %%f
 
 
