@@ -132,6 +132,7 @@ function ChocoMoreApps {
         "postman",
         "openoffice",
         "sql-server-express",
+        "ollama",
         "sql-server-management-studio"
     )
 
