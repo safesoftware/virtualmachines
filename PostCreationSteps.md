@@ -40,10 +40,10 @@ GO
 1. Download and install FME Flow. FME Flow database user/user/pwd is fmeflow
 2. Disable auto-start for FME Flow using `services.msc`
 ```
-sc config "FMEFlowAppServer" start= demand
-sc config "FME Flow Core" start= demand
-sc config "FME Flow Database" start= demand
-sc config "FME Flow Engines" start= demand
+sc.exe config "FMEFlowAppServer" start= demand
+sc.exe config "FME Flow Core" start= demand
+sc.exe config "FME Flow Database" start= demand
+sc.exe config "FME Flow Engines" start= demand
 ```
 3. Set Firefox to be default browser and pin to Task Bar. Disable search suggestions. Set FME Flow as homepage
 4. Open FME Flow and license it. Save username and password `admin` and `FMElearnings`.
