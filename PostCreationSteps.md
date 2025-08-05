@@ -2,6 +2,10 @@
 1. Open File Explorer and enable file extensions and pin FMEData to favourites.
 3. Enable "show hidden files and folders" and Show File Extensions.
 
+## Set Account Lockout Threshold to 0 (No Lockout)
+Open PowerShell as Administrator, then run:
+`net accounts /lockoutthreshold:0`
+
 ## Install Graphics Drivers ##   
 1. Install G5 drivers
 
