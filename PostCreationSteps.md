@@ -70,5 +70,30 @@ PostGIS (postgis.train.safe.com fmedata) as `FME Training PostGIS Database'
 23. Run Ec2LaunchSettings. "Shutdown without Sysprep"
 24. Create new AMI--leave Description blank. After the image is complete, edit the Description to `FME 20xx.x for Strigo`.
 
-## FME 2025 Updates ##
-1. Place a copy of the BusinessLicenses SQLite database into the FME Accelerator data folder, and update the workspace.
+## Update FME Flow ##
+1. Download latest FME Flow
+2. Download encryption key
+3. Download backup
+4. Stop FME Flow services
+5. Uninstall FME Flow
+6. Install new FME Flow
+7. Disable auto-start for FME Flow using `services.msc`
+```
+sc.exe config "FMEFlowAppServer" start= demand
+sc.exe config "FME Flow Core" start= demand
+sc.exe config "FME Flow Database" start= demand
+sc.exe config "FME Flow Engines" start= demand
+```
+8. Reboot or run Startup.bat to retrieve license
+8. Update password from admin to FMElearnings
+9. Change engines to 4
+10. Install encryption key
+11. Load backup
+
+## Update FME Form ##
+1. Download latest FME Form
+2. Install over existing Form
+3. Launch Form and pin to Taskar
+4. Run Ec2LaunchSettings. "Shutdown without Sysprep"
+5. Create new AMI--leave Description blank. After the image is complete, edit the Description to `FME 20xx.x for Strigo`.
+
