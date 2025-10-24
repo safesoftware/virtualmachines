@@ -94,6 +94,9 @@ sc.exe config "FME Flow Engines" start= demand
 1. Download latest FME Form
 2. Install over existing Form
 3. Launch Form and pin to Taskar
-4. Run Ec2LaunchSettings. "Shutdown without Sysprep"
-5. Create new AMI--leave Description blank. After the image is complete, edit the Description to `FME 20xx.x for Strigo`.
+
+## Create AMIs##
+1. Run Ec2LaunchSettings. "Shutdown without Sysprep"
+2. Create new AMI--leave Description blank. After the image is complete, edit the Description to `FME 20xx.x for Strigo`.
+3. Run https://bluesky-safe-software.fmecloud.com/fmeserver/workspaces/run/FMETraining/FindStrigoImage.fmw
 
