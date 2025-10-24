@@ -84,7 +84,7 @@ sc.exe config "FME Flow Core" start= demand
 sc.exe config "FME Flow Database" start= demand
 sc.exe config "FME Flow Engines" start= demand
 ```
-8. Reboot or run Startup.bat to retrieve license
+8. Reboot or run C:\temp\OnstartConfiguration.bat to retrieve license
 8. Update password from admin to FMElearnings
 9. Change engines to 4
 10. Install encryption key
