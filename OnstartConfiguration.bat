@@ -21,7 +21,7 @@ echo ==== Log file writing to %LOG% ====
 	echo ==== Making FME Flow Happy ====
    call :fmeserverhoops >>%LOG%
 	echo ==== Making FME Form Happy ====   
-   call :writefmelicense >>%LOG%
+  :: call :writefmelicense >>%LOG%
 	echo ==== Putting Links on the Desktop ====      
    call :urls >>%LOG%
 	echo ==== Getting FMEData ====   
@@ -60,9 +60,14 @@ goto :eof
 
 :fmeserverhoops
 	:: FME Flow sometimes doesn't like to start properly. So we start it manually here.
-	aria2c https://s3.amazonaws.com/FMETemp/Server_January.fmelic ^
+	aria2c https://s3.amazonaws.com/FMETemp/FLOW_December.fmelic ^
 		--dir="c:\ProgramData\Safe Software\FMEFlow\licenses" ^
 		--out=fme_server.fmelic ^
+		--allow-overwrite=true
+
+	aria2c https://s3.amazonaws.com/FMETemp/FORM_December.fmelic ^
+		--dir="c:\ProgramData\Safe Software\FME\licenses" ^
+		--out=fme_form.fmelic ^
 		--allow-overwrite=true
 	
 	echo ==== Starting FME Flow Service at %TIME% ==== 
