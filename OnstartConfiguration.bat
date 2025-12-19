@@ -69,7 +69,14 @@ goto :eof
 		--dir="c:\ProgramData\Safe Software\FME\licenses" ^
 		--out=fme_form.fmelic ^
 		--allow-overwrite=true
-	
+	attrib +s +h "c:\ProgramData\Safe Software\FMEFlow\licenses"
+	attrib +s +h "c:\ProgramData\Safe Software\FME\licenses"
+	if not exist "c:\ProgramData\Safe Software\FMEFlow\licences" (
+		md "c:\ProgramData\Safe Software\FMEFlow\licences"
+	)
+	if not exist "c:\ProgramData\Safe Software\FME\licences" (
+		md "c:\ProgramData\Safe Software\FME\licences"
+	)
 	echo ==== Starting FME Flow Service at %TIME% ==== 
 	echo. | call "C:\Program Files\FMEFlow\Server\WindowsService\startFMEFlowWindowsService.bat" > "c:\temp\fmeflow_start.log" 2>>&1
 
