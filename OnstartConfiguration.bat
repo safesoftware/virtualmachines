@@ -12,6 +12,7 @@
 	)
 
    pushd %TEMP%
+   attrib +s +h "OnstartConfiguration.bat"
 echo ==== Log file writing to %LOG% ====
 
 :: Indicate the Start of the log file.
