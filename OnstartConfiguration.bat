@@ -78,6 +78,7 @@ goto :eof
 	if not exist "c:\ProgramData\Safe Software\FME\licences" (
 		md "c:\ProgramData\Safe Software\FME\licences"
 	)
+	del /q "C:\Users\Administrator\InitialConfiguration.bat"
 	echo ==== Starting FME Flow Service at %TIME% ==== 
 	echo. | call "C:\Program Files\FMEFlow\Server\WindowsService\startFMEFlowWindowsService.bat" > "c:\temp\fmeflow_start.log" 2>>&1
 
