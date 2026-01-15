@@ -72,7 +72,7 @@ PostGIS (postgis.train.safe.com fmedata) as `FME Training PostGIS Database'
 
 ## Update FME Flow ##
 1. Download latest FME Flow
-2. Download encryption key
+2. Download encryption key from System Configuration->Security
 3. Download backup
 4. Stop FME Flow services
 5. Uninstall FME Flow
