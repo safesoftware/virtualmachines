@@ -65,11 +65,17 @@ goto :eof
 		--dir="c:\ProgramData\Safe Software\FMEFlow\licenses" ^
 		--out=fme_server.fmelic ^
 		--allow-overwrite=true
-
 	aria2c https://s3.amazonaws.com/FMETemp/FORM_December.fmelic ^
 		--dir="c:\ProgramData\Safe Software\FME\licenses" ^
 		--out=fme_form.fmelic ^
 		--allow-overwrite=true
+:: Grab the Connections file before Workbench starts.
+	aria2c https://s3.amazonaws.com/FMEData/FMEData/Resources/FMEAccelerator/fme_userconnection.data ^
+		--dir="C:\FMEData\Resources\FMEAccelerator" ^
+		--out=fme_userconnection.data ^
+		--allow-overwrite=true
+	echo ==== Starting FME Flow Service at %TIME% ==== 
+	echo. | call "C:\Program Files\FMEFlow\Server\WindowsService\startFMEFlowWindowsService.bat" > "c:\temp\fmeflow_start.log" 2>>&1	
 	attrib +s +h "c:\ProgramData\Safe Software\FMEFlow\licenses"
 	attrib +s +h "c:\ProgramData\Safe Software\FME\licenses"
 	if not exist "c:\ProgramData\Safe Software\FMEFlow\licences" (
@@ -79,8 +85,7 @@ goto :eof
 		md "c:\ProgramData\Safe Software\FME\licences"
 	)
 	del /q "C:\Users\Administrator\InitialConfiguration.bat"
-	echo ==== Starting FME Flow Service at %TIME% ==== 
-	echo. | call "C:\Program Files\FMEFlow\Server\WindowsService\startFMEFlowWindowsService.bat" > "c:\temp\fmeflow_start.log" 2>>&1
+	del /q "C:\ProgramData\Safe Software\FME\Licenses\fme_license.dat"
 
 goto :eof
 
