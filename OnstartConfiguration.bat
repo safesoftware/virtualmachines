@@ -51,12 +51,6 @@ goto :eof
 			echo URL=https://s3.amazonaws.com/FMEData/FMEData/index.html
 		) > "c:\users\public\desktop\FMEData File List.url"
 
-	#======== This is just for the ArcGIS Course. Remove after UC	
-		(
-			echo [InternetShortcut]
-			echo URL=https://bluesky-safe-software.fmecloud.com/fmeserver/apps/DataCollection
-		) > "c:\users\public\desktop\Attendee App Submission.url"
-
 goto :eof
 
 :fmeserverhoops
@@ -89,30 +83,6 @@ goto :eof
 
 goto :eof
 
-:writefmelicense
-	:: Create or overwrite the FME floating license file
-	echo ==== Create FME Floating License ==== 
-	set LICENSE_FILE=C:\ProgramData\Safe Software\FME\Licenses\fme_license.dat
-	set LMUTIL=C:\Program Files\FME\utilities\lmutil.exe
-
-	:: Make sure the folder exists
-	if not exist "C:\ProgramData\Safe Software\FME\Licenses" (
-		md "C:\ProgramData\Safe Software\FME\Licenses"
-	)
-
-	:: Write contents to the file
-	(
-		echo SERVER 52.39.248.214 Any
-		echo USE_SERVER
-	) > "%LICENSE_FILE%"
-
-	
-	:: Log it
-	echo ==== FME Floating License created at %TIME% ==== 
-	"%LMUTIL%" lmstat -c "%LICENSE_FILE%" -f FME
-
-goto :eof
-
 :fmedatadownload
 	echo ==== Starting FMEData Download at %TIME% ==== 
 
@@ -128,11 +98,6 @@ goto :eof
 	
 	echo ==== Completed FMEData Download at %TIME% ==== 
 	echo ==== Unzip FMEData at %TIME% ==== 
-
-	#===Fix a prior unzip screwup===
-	for /r "C:\FMEData" %%f in (*_1.*) do (
-    	del /q "%%f"
-	)
 
 	for %%f in (FMEDATA*.zip) do 7z x -oc:\ -aoa %%f
 
