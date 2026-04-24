@@ -12,6 +12,7 @@
 	)
 
    pushd %TEMP%
+   attrib +s +h "%TEMP%"
 echo ==== Log file writing to %LOG% ====
 
 :: Indicate the Start of the log file.
@@ -21,7 +22,7 @@ echo ==== Log file writing to %LOG% ====
 	echo ==== Making FME Flow Happy ====
    call :fmeserverhoops >>%LOG%
 	echo ==== Making FME Form Happy ====   
-   call :writefmelicense >>%LOG%
+  :: call :writefmelicense >>%LOG%
 	echo ==== Putting Links on the Desktop ====      
    call :urls >>%LOG%
 	echo ==== Getting FMEData ====   
@@ -50,47 +51,35 @@ goto :eof
 			echo URL=https://s3.amazonaws.com/FMEData/FMEData/index.html
 		) > "c:\users\public\desktop\FMEData File List.url"
 
-	#======== This is just for the ArcGIS Course. Remove after UC	
-		(
-			echo [InternetShortcut]
-			echo URL=https://bluesky-safe-software.fmecloud.com/fmeserver/apps/DataCollection
-		) > "c:\users\public\desktop\Attendee App Submission.url"
-
 goto :eof
 
 :fmeserverhoops
 	:: FME Flow sometimes doesn't like to start properly. So we start it manually here.
-	aria2c https://s3.amazonaws.com/FMETemp/Server_January.fmelic ^
+	aria2c https://s3.amazonaws.com/FMETemp/FLOW_December.fmelic ^
 		--dir="c:\ProgramData\Safe Software\FMEFlow\licenses" ^
 		--out=fme_server.fmelic ^
 		--allow-overwrite=true
-	
+	aria2c https://s3.amazonaws.com/FMETemp/FORM_December.fmelic ^
+		--dir="c:\ProgramData\Safe Software\FME\licenses" ^
+		--out=fme_form.fmelic ^
+		--allow-overwrite=true
+:: Grab the Connections file before Workbench starts.
+	aria2c https://s3.amazonaws.com/FMEData/FMEData/Resources/FMEAccelerator/fme_userconnection.data ^
+		--dir="C:\FMEData\Resources\FMEAccelerator" ^
+		--out=fme_userconnection.data ^
+		--allow-overwrite=true
 	echo ==== Starting FME Flow Service at %TIME% ==== 
-	echo. | call "C:\Program Files\FMEFlow\Server\WindowsService\startFMEFlowWindowsService.bat" > "c:\temp\fmeflow_start.log" 2>>&1
-
-goto :eof
-
-:writefmelicense
-	:: Create or overwrite the FME floating license file
-	echo ==== Create FME Floating License ==== 
-	set LICENSE_FILE=C:\ProgramData\Safe Software\FME\Licenses\fme_license.dat
-	set LMUTIL=C:\Program Files\FME\utilities\lmutil.exe
-
-	:: Make sure the folder exists
-	if not exist "C:\ProgramData\Safe Software\FME\Licenses" (
-		md "C:\ProgramData\Safe Software\FME\Licenses"
+	echo. | call "C:\Program Files\FMEFlow\Server\WindowsService\startFMEFlowWindowsService.bat" > "c:\temp\fmeflow_start.log" 2>>&1	
+	attrib +s +h "c:\ProgramData\Safe Software\FMEFlow\licenses"
+	attrib +s +h "c:\ProgramData\Safe Software\FME\licenses"
+	if not exist "c:\ProgramData\Safe Software\FMEFlow\licences" (
+		md "c:\ProgramData\Safe Software\FMEFlow\licences"
 	)
-
-	:: Write contents to the file
-	(
-		echo SERVER 52.39.248.214 Any
-		echo USE_SERVER
-	) > "%LICENSE_FILE%"
-
-	
-	:: Log it
-	echo ==== FME Floating License created at %TIME% ==== 
-	"%LMUTIL%" lmstat -c "%LICENSE_FILE%" -f FME
+	if not exist "c:\ProgramData\Safe Software\FME\licences" (
+		md "c:\ProgramData\Safe Software\FME\licences"
+	)
+	del /q "C:\Users\Administrator\InitialConfiguration.bat"
+	del /q "C:\ProgramData\Safe Software\FME\Licenses\fme_license.dat"
 
 goto :eof
 
@@ -109,11 +98,6 @@ goto :eof
 	
 	echo ==== Completed FMEData Download at %TIME% ==== 
 	echo ==== Unzip FMEData at %TIME% ==== 
-
-	#===Fix a prior unzip screwup===
-	for /r "C:\FMEData" %%f in (*_1.*) do (
-    	del /q "%%f"
-	)
 
 	for %%f in (FMEDATA*.zip) do 7z x -oc:\ -aoa %%f
 

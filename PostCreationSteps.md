@@ -2,6 +2,10 @@
 1. Open File Explorer and enable file extensions and pin FMEData to favourites.
 3. Enable "show hidden files and folders" and Show File Extensions.
 
+## Set Account Lockout Threshold to 0 (No Lockout)
+Open PowerShell as Administrator, then run:
+`net accounts /lockoutthreshold:0`
+
 ## Install Graphics Drivers ##   
 1. Install G5 drivers
 
@@ -66,5 +70,35 @@ PostGIS (postgis.train.safe.com fmedata) as `FME Training PostGIS Database'
 23. Run Ec2LaunchSettings. "Shutdown without Sysprep"
 24. Create new AMI--leave Description blank. After the image is complete, edit the Description to `FME 20xx.x for Strigo`.
 
-## FME 2025 Updates ##
-1. Place a copy of the BusinessLicenses SQLite database into the FME Accelerator data folder, and update the workspace.
+## Update FME Flow ##
+1. Download latest FME Flow
+2. Download encryption key from System Configuration->Security
+3. Download backup
+4. Stop FME Flow services
+5. Uninstall FME Flow
+6. Install new FME Flow
+7. Disable auto-start for FME Flow using `services.msc`
+```
+sc.exe config "FMEFlowAppServer" start= demand
+sc.exe config "FME Flow Core" start= demand
+sc.exe config "FME Flow Database" start= demand
+sc.exe config "FME Flow Engines" start= demand
+```
+8. Reboot or run C:\temp\OnstartConfiguration.bat to retrieve license
+8. Update password from admin to FMElearnings
+9. Change engines to 4
+10. Install encryption key
+11. Load backup
+
+## Update FME Form ##
+1. Download latest FME Form
+2. Install over existing Form
+3. Launch Form and pin to Taskar
+
+## Create AMIs##
+1. Run Ec2LaunchSettings. "Shutdown without Sysprep"
+2. Create new AMI--leave Description blank.
+3. Share AMI with 214514861431 and test in Strigo.
+4. After the image is tested, edit the Description to `FME 20xx.x for Strigo`.
+5. Run https://bluesky-safe-software.fmecloud.com/fmeserver/workspaces/run/FMETraining/FindStrigoImage.fmw
+
